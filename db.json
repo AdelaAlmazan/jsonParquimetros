@@ -1,0 +1,105 @@
+{
+  "caja": [
+    {
+      "id": 1,
+      "concepto": "Lorem impusum sit amet, censectur",
+      "importe": 123,
+      "subtotal": 123
+    },
+    {
+      "id": 2,
+      "concepto": "Adela Almazan",
+      "importe": 123,
+      "subtotal": 123
+    },
+    {
+      "id": 3,
+      "concepto": "Lorem impusum sit amet, censectur",
+      "importe": 123,
+      "subtotal": 123
+    }
+  ],
+  "rutas": [
+    {
+      "id": 1,
+      "inspector": "Lorem ipsum dolor si amet",
+      "zona": "Zona aA",
+      "informacion": "Av. agricultur Sur-Norte",
+      "actualizacion": "11/02/2022 9:00"
+    },
+    {
+      "id": 2,
+      "inspector": "Lorem ipsum dolor si amet",
+      "zona": "Zona B",
+      "informacion": "Av. agricultur Sur-Norte",
+      "actualizacion": "11/02/2022 9:00"
+    },
+    {
+      "id": 3,
+      "inspector": "Lorem ipsum dolor si amet",
+      "zona": "Zona B",
+      "informacion": "Av. agricultur Sur-Norte",
+      "actualizacion": "11/02/2022 9:00"
+    }
+  ],
+  "infracciones": [
+    {
+      "id": 1,
+      "folio": "123456",
+      "inspector": "Lorem ipsum dolor si amet",
+      "fecha": "11/02/2022",
+      "hora": "9:00"
+    }
+  ],
+  "usuario": [
+    {
+      "id": "123456",
+      "nombre": "Lorem ipsum dolor si amet"
+    }
+  ],
+  "lista_engomados": [
+    {
+      "id": 1,
+      "folio": "123",
+      "placa": " ",
+      "engomado": " "
+    }
+  ],
+  "inspectores": [
+    {
+      "id": 1,
+      "n": "28.1920831",
+      "w": "-105.4645372",
+      "inspector": "323",
+      "tiempo": 15
+    },
+    
+       {
+        "id": 2,
+        "n":"28.194950",
+        "w": "-105.469641",
+        "inspector": "113",
+        "tiempo": 10
+    
+    },
+    {
+      "id": 3,
+      "n": "28.194444",
+      "w": "-105.473675",
+      "inspector": "540",
+      "tiempo": 5
+    },
+
+
+    {
+      "id": 3,
+      "n": "28.2085602",
+      "w": "-105.4633602",
+      "inspector": "510",
+      "tiempo": 5
+    }
+  ]
+}
+
+
+
