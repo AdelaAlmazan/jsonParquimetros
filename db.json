@@ -53,8 +53,46 @@
   ],
   "usuario": [
     {
-      "id": "123456",
-      "nombre": "Lorem ipsum dolor si amet"
+      "id": 1,
+      "nombre": "Lorem ipsum dolor si amet",
+      "apellidop": "Lorem ipsum dolor si amet",
+      "apellido m": "Lorem ipsum dolor si amet"
+    },
+    {
+      "id": 2,
+      "nombre": "Lorem ipsum dolor si amet",
+      "apellidop": "Lorem ipsum dolor si amet",
+      "apellido m": "Lorem ipsum dolor si amet"
+    },
+    {
+      "id": 3,
+      "nombre": "Lorem ipsum dolor si amet",
+      "apellidop": "Lorem ipsum dolor si amet",
+      "apellido m": "Lorem ipsum dolor si amet"
+    },
+    {
+      "id": 4,
+      "nombre": "Lorem ipsum dolor si amet",
+      "apellidop": "Lorem ipsum dolor si amet",
+      "apellido m": "Lorem ipsum dolor si amet"
+    },
+    {
+      "id": 5,
+      "nombre": "Lorem ipsum dolor si amet",
+      "apellidop": "Lorem ipsum dolor si amet",
+      "apellido m": "Lorem ipsum dolor si amet"
+    },
+    {
+      "id": 6,
+      "nombre": "Lorem ipsum dolor si amet",
+      "apellidop": "Lorem ipsum dolor si amet",
+      "apellido m": "Lorem ipsum dolor si amet"
+    },
+    {
+      "id": 7,
+      "nombre": "Lorem ipsum dolor si amet",
+      "apellidop": "Lorem ipsum dolor si amet",
+      "apellido m": "Lorem ipsum dolor si amet"
     }
   ],
   "lista_engomados": [
@@ -73,14 +111,12 @@
       "inspector": "323",
       "tiempo": 15
     },
-    
-       {
-        "id": 2,
-        "n":"28.194950",
-        "w": "-105.469641",
-        "inspector": "113",
-        "tiempo": 10
-    
+    {
+      "id": 2,
+      "n": "28.194950",
+      "w": "-105.469641",
+      "inspector": "113",
+      "tiempo": 10
     },
     {
       "id": 3,
@@ -89,8 +125,6 @@
       "inspector": "540",
       "tiempo": 5
     },
-
-
     {
       "id": 3,
       "n": "28.2085602",
@@ -100,6 +134,3 @@
     }
   ]
 }
-
-
-
