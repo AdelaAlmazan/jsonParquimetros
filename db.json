@@ -5,18 +5,6 @@
       "concepto": "Lorem impusum sit amet, censectur",
       "importe": 123,
       "subtotal": 123
-    },
-    {
-      "id": 2,
-      "concepto": "Adela Almazan",
-      "importe": 123,
-      "subtotal": 123
-    },
-    {
-      "id": 3,
-      "concepto": "Lorem impusum sit amet, censectur",
-      "importe": 123,
-      "subtotal": 123
     }
   ],
   "rutas": [
@@ -46,9 +34,32 @@
     {
       "id": 1,
       "folio": "123456",
-      "inspector": "Lorem ipsum dolor si amet",
       "fecha": "11/02/2022",
-      "hora": "9:00"
+      "hora": "9:00",
+      "placa": "DZ- 75-900",
+      "marca": "chevrolet",
+      "tipo": "a",
+      "color": "Azul",
+      "zona": "5",
+      "infraccionado": "centro",
+      "estatus": "sin pagar",
+      "inspector": "Lorem ipsum dolor si amet",
+      "observaciones": "Ninguna"
+    },
+    {
+      "id": 2,
+      "folio": "123455324",
+      "fecha": "11/02/2020",
+      "hora": "9:00",
+      "placa": "DZ- 75-900",
+      "marca": "chevrolet",
+      "tipo": "b",
+      "color": "gris",
+      "zona": "5",
+      "infraccionado": "centro",
+      "estatus": "Pagada",
+      "inspector": "Lorem ipsum dolor si amet",
+      "observaciones": "Ninguna"
     }
   ],
   "usuario": [
@@ -65,42 +76,54 @@
       "apellido m": "Lorem ipsum dolor si amet"
     },
     {
-      "id": 3,
-      "nombre": "Lorem ipsum dolor si amet",
-      "apellidop": "Lorem ipsum dolor si amet",
-      "apellido m": "Lorem ipsum dolor si amet"
+      "nombre": "adela",
+      "apellidop": "",
+      "apellidom": "",
+      "correo": "",
+      "telefono": "",
+      "id": 5
     },
     {
-      "id": 4,
-      "nombre": "Lorem ipsum dolor si amet",
-      "apellidop": "Lorem ipsum dolor si amet",
-      "apellido m": "Lorem ipsum dolor si amet"
+      "nombre": "adela",
+      "apellidop": "almazan",
+      "apellidom": "almazan",
+      "correo": "lopezadela606@gmail.com",
+      "telefono": "6391121905",
+      "id": 6
     },
     {
-      "id": 5,
-      "nombre": "Lorem ipsum dolor si amet",
-      "apellidop": "Lorem ipsum dolor si amet",
-      "apellido m": "Lorem ipsum dolor si amet"
+      "nombre": "guadalupe",
+      "apellidop": "almazan",
+      "apellidom": "almazan",
+      "correo": "lopezadela606@gmail.com",
+      "telefono": "6391121905",
+      "id": 7
     },
     {
-      "id": 6,
-      "nombre": "Lorem ipsum dolor si amet",
-      "apellidop": "Lorem ipsum dolor si amet",
-      "apellido m": "Lorem ipsum dolor si amet"
+      "nombre": "adela",
+      "apellidop": "almazan",
+      "apellidom": "almazan",
+      "correo": "lopezadela606@gmail.com",
+      "telefono": "6391121905",
+      "id": 8
     },
     {
-      "id": 7,
-      "nombre": "Lorem ipsum dolor si amet",
-      "apellidop": "Lorem ipsum dolor si amet",
-      "apellido m": "Lorem ipsum dolor si amet"
+      "nombre": "adela",
+      "apellidop": "almazan",
+      "apellidom": "almazan",
+      "correo": "lopezadela606@gmail.com",
+      "telefono": "6391121905",
+      "id": 9
     }
   ],
   "lista_engomados": [
     {
       "id": 1,
       "folio": "123",
-      "placa": " ",
-      "engomado": " "
+      "placa": "",
+      "engomado": "",
+      "periodo": "",
+      "precio": ""
     }
   ],
   "inspectores": [
@@ -131,6 +154,34 @@
       "w": "-105.4633602",
       "inspector": "510",
       "tiempo": 5
+    },
+    {
+      "id": 4,
+      "n": "28.2085603",
+      "w": "-105.46600",
+      "inspector": "610",
+      "tiempo": 5
+    },
+    {
+      "id": 5,
+      "n": "28.19500",
+      "w": "-105.47300",
+      "inspector": "240",
+      "tiempo": 5
+    },
+    {
+      "id": 6,
+      "n": "28.1920200",
+      "w": "-105.4645200",
+      "inspector": "723",
+      "tiempo": 15
+    },
+    {
+      "id": 7,
+      "n": "28.1920900",
+      "w": "-105.4645200",
+      "inspector": "323",
+      "tiempo": 15
     }
   ]
 }
