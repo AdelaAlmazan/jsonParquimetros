@@ -67,63 +67,84 @@
       "id": 1,
       "nombre": "Lorem ipsum dolor si amet",
       "apellidop": "Lorem ipsum dolor si amet",
-      "apellido m": "Lorem ipsum dolor si amet"
-    },
-    {
-      "id": 2,
-      "nombre": "Lorem ipsum dolor si amet",
-      "apellidop": "Lorem ipsum dolor si amet",
-      "apellido m": "Lorem ipsum dolor si amet"
-    },
-    {
-      "nombre": "adela",
-      "apellidop": "",
-      "apellidom": "",
+      "apellidom": "Lorem ipsum dolor si amet",
+      "rol": "",
       "correo": "",
-      "telefono": "",
-      "id": 5
+      "telefono": ""
     },
     {
-      "nombre": "adela",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "6391121905",
-      "id": 6
-    },
-    {
-      "nombre": "guadalupe",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "6391121905",
-      "id": 7
-    },
-    {
-      "nombre": "adela",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "6391121905",
-      "id": 8
-    },
-    {
-      "nombre": "adela",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "6391121905",
+      "nombre": "Adela",
+      "apellidop": "Almazan",
+      "apellidom": "Almazan",
+      "rol": "usuario1",
+      "correo": "ssm@gmail.com",
+      "telefono": "6391175971",
       "id": 9
+    },
+    {
+      "nombre": "adela",
+      "apellidop": "almaza",
+      "apellidom": "almaza",
+      "rol": "usuario1",
+      "correo": "lopezadela606@gmail.com",
+      "telefono": "6391121905",
+      "id": 11
+    },
+    {
+      "nombre": "admin",
+      "apellidop": "almazan",
+      "apellidom": "almazan",
+      "rol": "usuario1",
+      "correo": "lopezadela606@gmail.com",
+      "telefono": "6391121905",
+      "id": 12
+    },
+    {
+      "nombre": "adela",
+      "apellidop": "almazan",
+      "apellidom": "almazan",
+      "rol": "inspector",
+      "correo": "lopezadela606@gmail.com",
+      "telefono": "6391121905",
+      "id": 13
     }
   ],
   "lista_engomados": [
     {
       "id": 1,
       "folio": "123",
+      "foliot": " ",
       "placa": "",
       "engomado": "",
       "periodo": "",
       "precio": ""
+    },
+    {
+      "folio": "123",
+      "foliot": "30/03/2022",
+      "placa": "ABC123",
+      "engomado": "ipsum",
+      "periodo": "",
+      "precio": "1234",
+      "id": 2
+    },
+    {
+      "folio": "1234",
+      "foliot": "31/12/2021",
+      "placa": "65353",
+      "engomado": "ipsum",
+      "periodo": "",
+      "precio": "12340",
+      "id": 3
+    },
+    {
+      "folio": "64554",
+      "foliot": "20/20/2020",
+      "placa": "4356",
+      "engomado": "ipsum",
+      "periodo": "",
+      "precio": "43564",
+      "id": 4
     }
   ],
   "inspectores": [
