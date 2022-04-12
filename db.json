@@ -3,8 +3,14 @@
     {
       "id": 1,
       "concepto": "Lorem impusum sit amet, censectur",
-      "importe": 123,
-      "subtotal": 123
+      "importe": 123.59,
+      "subtotal": 123.59
+    },
+    {
+      "id": 2,
+      "concepto": "Lorem impusum sit amet, censectur",
+      "importe": 123.59,
+      "subtotal": 123.59
     }
   ],
   "rutas": [
@@ -73,51 +79,24 @@
       "telefono": ""
     },
     {
-      "nombre": "Adela",
-      "apellidop": "Almazan",
-      "apellidom": "Almazan",
-      "rol": "usuario1",
-      "correo": "ssm@gmail.com",
-      "telefono": "6391175971",
-      "id": 9
-    },
-    {
-      "nombre": "adela",
-      "apellidop": "almaza",
-      "apellidom": "almaza",
-      "rol": "usuario1",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "6391121905",
-      "id": 11
-    },
-    {
-      "nombre": "admin",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "rol": "usuario1",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "6391121905",
-      "id": 12
-    },
-    {
       "nombre": "adela",
       "apellidop": "almazan",
       "apellidom": "almazan",
-      "rol": "inspector",
+      "rol": "usuario2",
       "correo": "lopezadela606@gmail.com",
       "telefono": "6391121905",
-      "id": 13
+      "id": 2
     }
   ],
   "lista_engomados": [
     {
       "id": 1,
       "folio": "123",
-      "foliot": " ",
-      "placa": "",
-      "engomado": "",
+      "foliot": "30/03/2022",
+      "placa": "ABC123",
+      "engomado": "ipsum",
       "periodo": "",
-      "precio": ""
+      "precio": "1234"
     },
     {
       "folio": "123",
@@ -145,6 +124,42 @@
       "periodo": "",
       "precio": "43564",
       "id": 4
+    },
+    {
+      "folio": "098765",
+      "foliot": "30/03/2021",
+      "placa": "1234",
+      "engomado": "ipsum",
+      "periodo": {
+        "fechaInicial": "16-04-2022",
+        "fechaFinal": "11-05-2022"
+      },
+      "precio": "12345",
+      "id": 5
+    },
+    {
+      "folio": "098765",
+      "foliot": "30/03/2020",
+      "placa": "1234",
+      "engomado": "dolor",
+      "periodo": {
+        "fechaInicial": "21-04-2022",
+        "fechaFinal": "25-05-2022"
+      },
+      "precio": "12345",
+      "id": 6
+    },
+    {
+      "folio": "134",
+      "foliot": "30/03/2022",
+      "placa": "ABC12",
+      "engomado": "dolor",
+      "periodo": {
+        "fechaInicial": "",
+        "fechaFinal": ""
+      },
+      "precio": "12134",
+      "id": 7
     }
   ],
   "inspectores": [
