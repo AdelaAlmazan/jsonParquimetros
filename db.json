@@ -21,6 +21,22 @@
       "folio": "123",
       "placa": "DZ- 75-900",
       "concepto": "Lorem impusum sit amet, censectur",
+      "importe": 157553.998080889,
+      "subtotal": 157553
+    },
+    {
+      "id": 5,
+      "folio": "123",
+      "placa": "DZ- 75-900",
+      "concepto": "Lorem impusum sit amet, censectur",
+      "importe": 123.59,
+      "subtotal": 123.59
+    },
+    {
+      "id": 6,
+      "folio": "123",
+      "placa": "DZ- 75-900",
+      "concepto": "Lorem impusum sit amet, censectur",
       "importe": 123.59,
       "subtotal": 123.59
     }
@@ -352,6 +368,5 @@
       "tarjeta": "2000.00",
       "total": "6000.00"
     }
-  
   ]
 }
