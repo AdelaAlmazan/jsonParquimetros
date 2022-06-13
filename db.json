@@ -1,28 +1,44 @@
 {
   "caja": [
     {
-      "id": 2,
-      "folio": "123",
+      "id": 1,
+      "folio": "124",
       "placa": "DZ- 75-900",
-      "concepto": "Lorem impusum sit amet, censectur",
+      "concepto": "Lorem",
+      "importe": 123,
+      "subtotal": 123
+    },
+    {
+      "id": 2,
+      "folio": "125",
+      "placa": "DZ- 75-901",
+      "concepto": "Lorem impusum r",
       "importe": 123,
       "subtotal": 123
     },
     {
       "id": 3,
-      "folio": "124",
+      "folio": "126",
       "placa": "DZ- 75-900",
+      "concepto": "Lorem impusum sit ",
+      "importe": 123,
+      "subtotal": 123
+    },
+    {
+      "id": 4,
+      "folio": "128",
+      "placa": "DZ- 75-901",
       "concepto": "Lorem impusum sit amet, censectur",
       "importe": 123,
       "subtotal": 123
     },
     {
-      "id": 6,
-      "folio": "126",
-      "placa": "DZ- 75-900",
+      "id": 5,
+      "folio": "128",
+      "placa": "DZ- 75-901",
       "concepto": "Lorem impusum sit amet, censectur",
-      "importe": 123.5,
-      "subtotal": 123.5
+      "importe": 123,
+      "subtotal": 123
     }
   ],
   "rutas": [
@@ -52,7 +68,7 @@
     {
       "id": 1,
       "folio": "123456",
-      "fecha": "11/02/2022",
+      "fecha": "12/12/2022",
       "hora": "9:00",
       "placa": "DZ- 75-900",
       "marca": "chevrolet",
@@ -84,67 +100,85 @@
   ],
   "usuario": [
     {
-      "nombre": "admin",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "rol": "Admin",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "6391175971",
-      "id": 2
-    },
-    {
-      "nombre": "Adela",
-      "apellidop": "Almazan",
-      "apellidom": "Almazan",
-      "rol": "Admin",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "6391121905",
-      "id": 3
-    },
-    {
-      "nombre": "admin",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "rol": "Admin",
-      "correo": "lopezadela606@gmail.cdom",
-      "telefono": "6391121905",
-      "id": 4
-    },
-    {
-      "nombre": "guadalupe",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "rol": "Inspector",
-      "correo": "ssm@gmail.com",
-      "telefono": "6391121905",
-      "id": 5
-    },
-    {
       "nombre": "adela",
       "apellidop": "almazan",
       "apellidom": "almazan",
-      "rol": "Admin",
+      "rol": "SuperAdmin",
       "correo": "lopezadela606@gmail.com",
-      "telefono": "6391121905",
-      "id": 6
-    },
-    {
-      "nombre": "adela",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "rol": "Admin",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "6391121905",
+      "telefono": "63911219050",
       "id": 7
     },
     {
+      "nombre": "admin",
+      "apellidop": "almaza",
+      "apellidom": "almaza",
+      "rol": "SuperAdmin",
+      "correo": "lopezadela606@gmail.com",
+      "telefono": "6391121905",
+      "id": 8
+    },
+    {
       "nombre": "adela",
       "apellidop": "almazan",
       "apellidom": "almazan",
       "rol": "Admin",
       "correo": "lopezadela606@gmail.com",
       "telefono": "6391121905",
-      "id": 8
+      "id": 9
+    },
+    {
+      "nombre": "adela",
+      "apellidop": "almazan",
+      "apellidom": "almazan",
+      "rol": "Admin",
+      "correo": "lopezadela606@gmail.com",
+      "telefono": "6391121905",
+      "id": 10
+    },
+    {
+      "nombre": "admin",
+      "apellidop": "almazan",
+      "apellidom": "almazan",
+      "rol": "Inspector",
+      "correo": "lopezadela606@gmail.com",
+      "telefono": "6391121905",
+      "id": 11
+    },
+    {
+      "nombre": "adela",
+      "apellidop": "almazan",
+      "apellidom": "almazan",
+      "rol": "Admin",
+      "correo": "lopezadela606@gmail.com",
+      "telefono": "6391121905",
+      "id": 13
+    },
+    {
+      "nombre": "admin",
+      "apellidop": "admin",
+      "apellidom": "admin",
+      "rol": "Admin",
+      "correo": "admin",
+      "telefono": "1234",
+      "id": 14
+    },
+    {
+      "nombre": "adela",
+      "apellidop": "almazan",
+      "apellidom": "almazan",
+      "rol": "Cajero",
+      "correo": "ssm@gmail.com",
+      "telefono": "6391121905",
+      "id": 15
+    },
+    {
+      "nombre": "admin",
+      "apellidop": "almazan",
+      "apellidom": "almazan",
+      "rol": "SuperAdmin",
+      "correo": "lopezadela606@gmail.com",
+      "telefono": "6391121905",
+      "id": 16
     }
   ],
   "lista_engomados": [
@@ -171,15 +205,87 @@
     },
     {
       "folio": "1234",
-      "foliot": "16/5/2022",
+      "foliot": "18/5/2022",
       "placa": "dz-75-900",
-      "engomado": "dolor",
+      "engomado": "ipsum",
       "periodo": {
-        "fechaInicial": "16/5/2022",
-        "fechaFinal": "17-05-2022"
+        "fechaInicial": "18/5/2022",
+        "fechaFinal": "19-05-2022"
+      },
+      "precio": "12292",
+      "id": 3
+    },
+    {
+      "folio": "1234",
+      "foliot": "23/5/2022",
+      "placa": "dz-75-900",
+      "engomado": "ipsum",
+      "periodo": {
+        "fechaInicial": "23/5/2022",
+        "fechaFinal": "24-05-2022"
       },
       "precio": "1200",
-      "id": 3
+      "id": 4
+    },
+    {
+      "folio": "1234",
+      "foliot": "24/5/2022",
+      "placa": "dz-75-900",
+      "engomado": "ipsum",
+      "periodo": {
+        "fechaInicial": "24/5/2022",
+        "fechaFinal": "25-05-2022"
+      },
+      "precio": "1200",
+      "id": 5
+    },
+    {
+      "folio": "1234",
+      "foliot": "26/5/2022",
+      "placa": "dz-75-900",
+      "engomado": "ipsum",
+      "periodo": {
+        "fechaInicial": "26/5/2022",
+        "fechaFinal": "27-05-2022"
+      },
+      "precio": "1200",
+      "id": 6
+    },
+    {
+      "folio": "1234",
+      "foliot": "27/5/2022 ",
+      "placa": "dz-75-900",
+      "engomado": "ipsum",
+      "periodo": {
+        "fechaInicial": "27/5/2022",
+        "fechaFinal": "27-05-2023"
+      },
+      "precio": "1200",
+      "id": 7
+    },
+    {
+      "folio": "1234",
+      "foliot": "27/5/2022",
+      "placa": "dz-75-900",
+      "engomado": "ipsum",
+      "periodo": {
+        "fechaInicial": "27/5/2022",
+        "fechaFinal": "27-05-2023"
+      },
+      "precio": "12345",
+      "id": 8
+    },
+    {
+      "folio": "1",
+      "foliot": "27/5/2022",
+      "placa": "wedfg",
+      "engomado": "dolor",
+      "periodo": {
+        "fechaInicial": "27/5/2022",
+        "fechaFinal": "27-05-2023"
+      },
+      "precio": "12345",
+      "id": 9
     }
   ],
   "inspectores": [
@@ -187,64 +293,43 @@
       "id": 1,
       "n": "28.1920831",
       "w": "-105.4645372",
-      "inspector": "323",
+      "inspector": "adela ",
       "tiempo": 15
     },
     {
       "id": 2,
       "n": "28.194950",
       "w": "-105.469641",
-      "inspector": "113",
+      "inspector": "Lorem",
       "tiempo": 10
     },
     {
       "id": 3,
       "n": "28.194444",
       "w": "-105.473675",
-      "inspector": "540",
+      "inspector": "Guadalupe",
       "tiempo": 5
     },
     {
       "id": 3,
       "n": "28.2085602",
       "w": "-105.4633602",
-      "inspector": "510",
+      "inspector": "Lorem ipmsum",
       "tiempo": 5
     },
     {
       "id": 4,
       "n": "28.2085603",
       "w": "-105.46600",
-      "inspector": "610",
+      "inspector": "asddfg",
       "tiempo": 5
     },
     {
       "id": 5,
       "n": "28.19500",
       "w": "-105.47300",
-      "inspector": "240",
+      "inspector": "qweert",
       "tiempo": 5
-    },
-    {
-      "id": 6,
-      "n": "28.1920200",
-      "w": "-105.4645200",
-      "inspector": "723",
-      "tiempo": 15
-    },
-    {
-      "id": 7,
-      "n": "28.1920900",
-      "w": "-105.4645200",
-      "inspector": "323",
-      "tiempo": 15
-    },
-    {
-      "id": 8,
-      "n": "28.1682878",
-      "w": "-105.4721648",
-      "inspector": "323",
-      "tiempo": 15
     }
   ],
   "dineroInspectores": [
@@ -271,24 +356,38 @@
   ],
   "notificaciones": [
     {
-      "id": 3,
+      "id": 7,
       "title": "Usuario Inmóvil",
       "datetime": "2027-08-09",
-      "description": "Un usuario no se ha movido por mas de 1 minutos",
+      "description": "el usuario 121 no se ha movido por mas de 5 minutos",
+      "type": "notification"
+    },
+    {
+      "id": 6,
+      "title": "Usuario Inmóvil",
+      "datetime": "2027-08-09",
+      "description": "el usuario 122 no se ha movido por mas de 5 minutos",
+      "type": "notification"
+    },
+    {
+      "id": 5,
+      "title": "Usuario Inmóvil",
+      "datetime": "2027-08-09",
+      "description": "el usuario 124 no se ha movido por mas de 5 minutos",
+      "type": "notification"
+    },
+    {
+      "id": 4,
+      "title": "Usuario Inmóvil",
+      "datetime": "2027-08-09",
+      "description": "el usuario 125 no se ha movido por mas de 7 minutos",
       "type": "notification"
     },
     {
       "id": 2,
       "title": "Usuario Inmóvil",
       "datetime": "2027-08-09",
-      "description": "Un usuario no se ha movido por mas de 3 minutos",
-      "type": "notification"
-    },
-    {
-      "id": 1,
-      "title": "Usuario Inmóvil",
-      "datetime": "2027-08-09",
-      "description": "Un usuario no se ha movido por mas de 5 minutos",
+      "description": "el usuario 126 no se ha movido por mas de 10 minutos",
       "type": "notification"
     }
   ],
@@ -320,11 +419,290 @@
       "tarjeta": "1",
       "total": "1888.51",
       "id": 4
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1388.5,
+      "tarjeta": "1",
+      "total": "1388.51",
+      "id": 5
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1800,
+      "tarjeta": 0,
+      "total": 1800,
+      "id": 6
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 0,
+      "tarjeta": 0,
+      "total": 0,
+      "id": 7
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 0,
+      "tarjeta": 0,
+      "total": 0,
+      "id": 8
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 0,
+      "tarjeta": 0,
+      "total": 0,
+      "id": 9
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 0,
+      "tarjeta": 0,
+      "total": 0,
+      "id": 10
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 100,
+      "tarjeta": 0,
+      "total": 100,
+      "id": 11
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 100,
+      "tarjeta": 0,
+      "total": 100,
+      "id": 12
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 13
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1889.5,
+      "tarjeta": "2",
+      "total": "1889.52",
+      "id": 14
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 15
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 16
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 17
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "0",
+      "total": "1888.50",
+      "id": 18
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 19
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 20
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 2388.5,
+      "tarjeta": "197",
+      "total": "2388.5197",
+      "id": 21
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "76",
+      "total": "1888.576",
+      "id": 22
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 68298.5,
+      "tarjeta": "23",
+      "total": "68298.523",
+      "id": 23
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1889,
+      "tarjeta": "111",
+      "total": "1889111",
+      "id": 24
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 25
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "3",
+      "total": "1888.53",
+      "id": 26
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 27
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 28
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 2110,
+      "tarjeta": "3",
+      "total": "21103",
+      "id": 29
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 30
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 31
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 32
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 33
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 34
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 35
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 4088.5,
+      "tarjeta": "1",
+      "total": "4088.51",
+      "id": 36
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1",
+      "total": "1888.51",
+      "id": 37
     }
   ],
   "archivos": [
     {
       "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    },
+    {
+      "id": 14
+    },
+    {
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
     }
   ]
 }
