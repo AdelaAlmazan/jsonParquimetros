@@ -1,30 +1,6 @@
 {
   "caja": [
     {
-      "id": 1,
-      "folio": "124",
-      "placa": "DZ- 75-900",
-      "concepto": "Lorem",
-      "importe": 123,
-      "subtotal": 123
-    },
-    {
-      "id": 2,
-      "folio": "125",
-      "placa": "DZ- 75-901",
-      "concepto": "Lorem impusum r",
-      "importe": 123,
-      "subtotal": 123
-    },
-    {
-      "id": 3,
-      "folio": "126",
-      "placa": "DZ- 75-900",
-      "concepto": "Lorem impusum sit ",
-      "importe": 123,
-      "subtotal": 123
-    },
-    {
       "id": 4,
       "folio": "128",
       "placa": "DZ- 75-901",
@@ -36,7 +12,7 @@
       "id": 5,
       "folio": "128",
       "placa": "DZ- 75-901",
-      "concepto": "Lorem impusum sit amet, censectur",
+      "concepto": "Lorem ",
       "importe": 123,
       "subtotal": 123
     }
@@ -44,248 +20,145 @@
   "rutas": [
     {
       "id": 1,
-      "inspector": "Lorem ipsum dolor si amet",
-      "zona": "Zona aA",
-      "informacion": "Av. agricultur Sur-Norte",
-      "actualizacion": "11/02/2022 9:00"
+      "inspName": "Lorem ipsum dolor si amet",
+      "assignedZone": "Zona aA",
+      "zoneInfo": "Av. agricultur Sur-Norte",
+      "lastUpdate": "11/02/2022 9:00"
     },
     {
       "id": 2,
-      "inspector": "Lorem ipsum dolor si amet",
-      "zona": "Zona B",
-      "informacion": "Av. agricultur Sur-Norte",
-      "actualizacion": "11/02/2022 9:00"
+      "inspName": "Lorem ipsum dolor si amet",
+      "assignedZone": "Zona B",
+      "zoneInfo": "Av. agricultur Sur-Norte",
+      "lastUpdate": "11/02/2022 9:00"
     },
     {
       "id": 3,
-      "inspector": "Lorem ipsum dolor si amet",
-      "zona": "Zona B",
-      "informacion": "Av. agricultur Sur-Norte",
-      "actualizacion": "11/02/2022 9:00"
+      "inspName": "Lorem ipsum dolor si amet",
+      "assignedZone": "Zona B",
+      "zoneInfo": "Av. agricultur Sur-Norte",
+      "lastUpdate": "11/02/2022 9:00"
     }
   ],
   "infracciones": [
     {
       "id": 1,
       "folio": "123456",
-      "fecha": "12/12/2022",
-      "hora": "9:00",
-      "placa": "DZ- 75-900",
-      "marca": "chevrolet",
-      "tipo": "a",
-      "costo": "40.00",
+      "date": "12/12/2022",
+      "time": "9:00",
+      "carPlate": "DZ- 75-900",
+      "brand": "chevrolet",
+      "infractionType": "a",
+      "price": "40.00",
       "color": "Azul",
-      "zona": "5",
-      "infraccionado": "centro",
-      "estatus": "sin pagar",
-      "inspector": "Lorem ipsum dolor si amet",
-      "observaciones": "Ninguna"
+      "zoneNoDevice": "5",
+      "ticketedIn": "centro",
+      "status": "sin pagar",
+      "warrantly": "si",
+      "paidInstead": "si",
+      "inspName": "Lorem ipsum dolor si amet",
+      "observation": "Ninguna"
     },
     {
       "id": 2,
       "folio": "123455324",
-      "fecha": "11/02/2020",
-      "hora": "9:00",
-      "placa": "DZ- 75-900",
-      "marca": "chevrolet",
-      "tipo": "b",
-      "costo": "80.00",
+      "date": "11/02/2020",
+      "time": "9:00",
+      "carPlate": "DZ- 75-900",
+      "brand": "chevrolet",
+      "infractionType": "b",
+      "price": "80.00",
       "color": "gris",
-      "zona": "5",
-      "infraccionado": "centro",
-      "estatus": "Pagada",
-      "inspector": "Lorem ipsum dolor si amet",
-      "observaciones": "Ninguna"
+      "zoneNoDevice": "5",
+      "ticketedIn": "centro",
+      "status": "Pagada",
+      "inspName": "Lorem ipsum dolor si amet",
+      "observation": "Ninguna"
     }
   ],
   "usuario": [
     {
-      "nombre": "adela",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "rol": "SuperAdmin",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "63911219050",
-      "id": 7
-    },
-    {
-      "nombre": "admin",
-      "apellidop": "almaza",
-      "apellidom": "almaza",
-      "rol": "SuperAdmin",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "6391121905",
-      "id": 8
-    },
-    {
-      "nombre": "adela",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "rol": "Admin",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "6391121905",
-      "id": 9
-    },
-    {
-      "nombre": "adela",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "rol": "Admin",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "6391121905",
-      "id": 10
-    },
-    {
-      "nombre": "admin",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "rol": "Inspector",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "6391121905",
-      "id": 11
-    },
-    {
-      "nombre": "adela",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "rol": "Admin",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "6391121905",
-      "id": 13
-    },
-    {
-      "nombre": "admin",
-      "apellidop": "admin",
-      "apellidom": "admin",
-      "rol": "Admin",
-      "correo": "admin",
-      "telefono": "1234",
-      "id": 14
-    },
-    {
-      "nombre": "adela",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "rol": "Cajero",
-      "correo": "ssm@gmail.com",
-      "telefono": "6391121905",
-      "id": 15
-    },
-    {
-      "nombre": "admin",
-      "apellidop": "almazan",
-      "apellidom": "almazan",
-      "rol": "SuperAdmin",
-      "correo": "lopezadela606@gmail.com",
-      "telefono": "6391121905",
-      "id": 16
-    }
-  ],
-  "lista_engomados": [
-    {
+      "name": "adelaz",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
+      "role": "SuperAdmin",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391121905",
       "id": 1,
-      "folio": "123",
-      "foliot": "30/03/2022",
-      "placa": "ABC123",
-      "engomado": "ipsum",
-      "periodo": "",
-      "precio": "1234"
+      "nombre": "adela",
+      "apellidop": "as",
+      "apellidom": "almazan"
     },
     {
-      "folio": "1234",
-      "foliot": "16/5/2022",
-      "placa": "dz-75-900",
-      "engomado": "ipsum",
-      "periodo": {
-        "fechaInicial": "16/5/2022",
-        "fechaFinal": "17-05-2022"
-      },
-      "precio": "1200",
+      "name": "adela",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
+      "role": "Inspector",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391121905",
       "id": 2
     },
     {
-      "folio": "1234",
-      "foliot": "18/5/2022",
-      "placa": "dz-75-900",
-      "engomado": "ipsum",
-      "periodo": {
-        "fechaInicial": "18/5/2022",
-        "fechaFinal": "19-05-2022"
-      },
-      "precio": "12292",
+      "name": "adela",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
+      "role": "Admin",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391121905",
       "id": 3
     },
     {
-      "folio": "1234",
-      "foliot": "23/5/2022",
-      "placa": "dz-75-900",
-      "engomado": "ipsum",
-      "periodo": {
-        "fechaInicial": "23/5/2022",
-        "fechaFinal": "24-05-2022"
-      },
-      "precio": "1200",
+      "name": "adela",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
+      "role": "Inspector",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391121905",
       "id": 4
     },
     {
-      "folio": "1234",
-      "foliot": "24/5/2022",
-      "placa": "dz-75-900",
-      "engomado": "ipsum",
-      "periodo": {
-        "fechaInicial": "24/5/2022",
-        "fechaFinal": "25-05-2022"
-      },
-      "precio": "1200",
+      "name": "guadalup",
+      "firstLasName": "Almazan",
+      "secondLastName": "Almazan",
+      "role": "Cajero",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391175971",
       "id": 5
-    },
+    }
+  ],
+  "pagos": [
     {
-      "folio": "1234",
-      "foliot": "26/5/2022",
+      "id": 10,
+      "folio": 1,
+      "foliot": "20/6/2022",
       "placa": "dz-75-900",
-      "engomado": "ipsum",
+      "concepto": "ipsum",
       "periodo": {
-        "fechaInicial": "26/5/2022",
-        "fechaFinal": "27-05-2022"
+        "fechaInicial": "20/6/2022",
+        "fechaFinal": "20-06-2023"
       },
-      "precio": "1200",
-      "id": 6
+      "importe": 12345
     },
     {
-      "folio": "1234",
-      "foliot": "27/5/2022 ",
-      "placa": "dz-75-900",
-      "engomado": "ipsum",
-      "periodo": {
-        "fechaInicial": "27/5/2022",
-        "fechaFinal": "27-05-2023"
-      },
-      "precio": "1200",
-      "id": 7
+      "id": 2,
+      "folio": "124",
+      "foliot": "20/6/2022",
+      "placa": "DZ- 75-900",
+      "concepto": "Lorem",
+      "importe": 123,
+      "subtotal": 123
     },
     {
-      "folio": "1234",
-      "foliot": "27/5/2022",
-      "placa": "dz-75-900",
-      "engomado": "ipsum",
-      "periodo": {
-        "fechaInicial": "27/5/2022",
-        "fechaFinal": "27-05-2023"
-      },
-      "precio": "12345",
-      "id": 8
-    },
-    {
-      "folio": "1",
-      "foliot": "27/5/2022",
+      "folio": 3,
+      "foliot": "20/6/2022",
       "placa": "wedfg",
-      "engomado": "dolor",
+      "concepto": "ipsum",
       "periodo": {
-        "fechaInicial": "27/5/2022",
-        "fechaFinal": "27-05-2023"
+        "fechaInicial": "20/6/2022",
+        "fechaFinal": "20-06-2023"
       },
-      "precio": "12345",
-      "id": 9
+      "importe": "1200",
+      "id": 6
     }
   ],
   "inspectores": [
@@ -294,42 +167,42 @@
       "n": "28.1920831",
       "w": "-105.4645372",
       "inspector": "adela ",
-      "tiempo": 15
+      "time": 15
     },
     {
       "id": 2,
       "n": "28.194950",
       "w": "-105.469641",
       "inspector": "Lorem",
-      "tiempo": 10
+      "time": 10
     },
     {
       "id": 3,
       "n": "28.194444",
       "w": "-105.473675",
       "inspector": "Guadalupe",
-      "tiempo": 5
+      "time": 5
     },
     {
       "id": 3,
       "n": "28.2085602",
       "w": "-105.4633602",
       "inspector": "Lorem ipmsum",
-      "tiempo": 5
+      "time": 5
     },
     {
       "id": 4,
       "n": "28.2085603",
       "w": "-105.46600",
       "inspector": "asddfg",
-      "tiempo": 5
+      "time": 5
     },
     {
       "id": 5,
       "n": "28.19500",
       "w": "-105.47300",
       "inspector": "qweert",
-      "tiempo": 5
+      "time": 5
     }
   ],
   "dineroInspectores": [
@@ -405,251 +278,6 @@
       "tarjeta": "100",
       "total": "3513.5100",
       "id": 2
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 3
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 4
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1388.5,
-      "tarjeta": "1",
-      "total": "1388.51",
-      "id": 5
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1800,
-      "tarjeta": 0,
-      "total": 1800,
-      "id": 6
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 0,
-      "tarjeta": 0,
-      "total": 0,
-      "id": 7
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 0,
-      "tarjeta": 0,
-      "total": 0,
-      "id": 8
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 0,
-      "tarjeta": 0,
-      "total": 0,
-      "id": 9
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 0,
-      "tarjeta": 0,
-      "total": 0,
-      "id": 10
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 100,
-      "tarjeta": 0,
-      "total": 100,
-      "id": 11
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 100,
-      "tarjeta": 0,
-      "total": 100,
-      "id": 12
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 13
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1889.5,
-      "tarjeta": "2",
-      "total": "1889.52",
-      "id": 14
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 15
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 16
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 17
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "0",
-      "total": "1888.50",
-      "id": 18
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 19
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 20
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 2388.5,
-      "tarjeta": "197",
-      "total": "2388.5197",
-      "id": 21
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "76",
-      "total": "1888.576",
-      "id": 22
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 68298.5,
-      "tarjeta": "23",
-      "total": "68298.523",
-      "id": 23
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1889,
-      "tarjeta": "111",
-      "total": "1889111",
-      "id": 24
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 25
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "3",
-      "total": "1888.53",
-      "id": 26
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 27
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 28
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 2110,
-      "tarjeta": "3",
-      "total": "21103",
-      "id": 29
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 30
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 31
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 32
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 33
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 34
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 35
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 4088.5,
-      "tarjeta": "1",
-      "total": "4088.51",
-      "id": 36
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 37
     }
   ],
   "archivos": [
@@ -658,51 +286,34 @@
     },
     {
       "id": 2
-    },
+    }
+  ],
+  "lista_engomados": [
     {
-      "id": 3
-    },
-    {
-      "id": 4
-    },
-    {
-      "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "id": 7
-    },
-    {
-      "id": 8
-    },
-    {
-      "id": 9
-    },
-    {
+      "folio": 1,
+      "foliot": "22/6/2022",
+      "carPlate": "dz-75-900",
+      "concepto": "dz-75-900",
+      "stickerType": "dolor",
+      "periodo": {
+        "fechaInicial": "22/6/2022",
+        "fechaFinal": "22-06-2023"
+      },
+      "importe": "1200",
       "id": 10
     },
     {
-      "id": 11
-    },
-    {
-      "id": 12
-    },
-    {
-      "id": 13
-    },
-    {
-      "id": 14
-    },
-    {
-      "id": 15
-    },
-    {
-      "id": 16
-    },
-    {
-      "id": 17
+      "folio": 2,
+      "foliot": "22/6/2022",
+      "carPlate": "dz-75-900",
+      "concepto": "dz-75-900",
+      "stickerType": "dolor",
+      "periodo": {
+        "fechaInicial": "22/6/2022",
+        "fechaFinal": "22-06-2023"
+      },
+      "importe": "1200",
+      "id": 10
     }
   ]
 }
