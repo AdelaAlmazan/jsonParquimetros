@@ -119,27 +119,9 @@
       "email": "lopezadela606@gmail.com",
       "phone": "6391121905",
       "id": 1,
-      "nombre": "Luis Angel",
-      "apellidop": "Almazan",
-      "apellidom": "Lopez"
-    },
-    {
-      "name": "adela",
-      "firstLasName": "almazan",
-      "secondLastName": "almazan",
-      "role": "Inspector",
-      "email": "lopezadela606@gmail.com",
-      "phone": "6391121905",
-      "id": 2
-    },
-    {
-      "name": "adela",
-      "firstLasName": "almazan",
-      "secondLastName": "almazan",
-      "role": "Admin",
-      "email": "lopezadela606@gmail.com",
-      "phone": "6391121905",
-      "id": 3
+      "nombre": "admin",
+      "apellidop": "almazan",
+      "apellidom": "almazan"
     },
     {
       "name": "adela",
@@ -156,8 +138,8 @@
       "secondLastName": "almazan",
       "role": "Admin",
       "email": "lopezadela606@gmail.com",
-      "phone": "6391175971",
-      "id": 5
+      "phone": "6391121905",
+      "id": 9
     },
     {
       "name": "admin",
@@ -166,7 +148,7 @@
       "role": "Admin",
       "email": "lopezadela606@gmail.com",
       "phone": "6391175971",
-      "id": 6
+      "id": 10
     }
   ],
   "pagos": [
@@ -341,97 +323,6 @@
       "tarjeta": "2",
       "total": "20982",
       "id": 4
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1838.5,
-      "tarjeta": "1",
-      "total": "1838.51",
-      "id": 5
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "19",
-      "total": "1888.519",
-      "id": 6
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 7
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 888.5,
-      "tarjeta": "308",
-      "total": "888.5308",
-      "id": 8
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 4295.5,
-      "tarjeta": "679",
-      "total": "4295.5679",
-      "id": 9
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 883.5,
-      "tarjeta": "10",
-      "total": "883.510",
-      "id": 10
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 2987.5,
-      "tarjeta": "560",
-      "total": "2987.5560",
-      "id": 11
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 38156.5,
-      "tarjeta": "1234.50",
-      "total": "38156.51234.50",
-      "id": 12
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "4",
-      "total": "1888.54",
-      "id": 13
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "90",
-      "total": "1888.590",
-      "id": 14
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "5465767",
-      "total": "1888.55465767",
-      "id": 15
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 2388.5,
-      "tarjeta": "40",
-      "total": "2388.540",
-      "id": 16
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "106",
-      "total": "1888.5106",
-      "id": 17
     }
   ],
   "archivos": [
@@ -526,6 +417,20 @@
       "subtotal": 1200,
       "concepto": "engomado: dolor",
       "id": 6
+    },
+    {
+      "folio": "7",
+      "foliot": "11/7/2022",
+      "placa": "dz-75-900",
+      "stickerType": "dolor",
+      "periodo": {
+        "fechaInicial": "11/7/2022",
+        "fechaFinal": "11-07-2023"
+      },
+      "importe": 1200,
+      "subtotal": 1200,
+      "concepto": "engomado: dolor",
+      "id": 7
     }
   ]
 }
