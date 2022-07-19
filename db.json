@@ -42,106 +42,61 @@
   ],
   "infracciones": [
     {
-      "id": 1,
-      "folio": "123456",
-      "date": "12/12/2022",
-      "time": "9:00",
-      "carPlate": "DZ- 75-900",
-      "brand": "chevrolet",
-      "infractionType": "a",
-      "price": "40.00",
-      "color": "Azul",
-      "zoneNoDevice": "5",
-      "ticketedIn": "centro",
-      "status": "sin pagar",
-      "warrantly": "si",
-      "paidInstead": "si",
-      "inspName": "Lorem ipsum dolor si amet",
-      "observation": "Ninguna"
+      "folio": "1234567",
+      "date": "2022-02-11",
+      "time": "14:00",
+      "carPlate": "AAA1234",
+      "brand": "Ford",
+      "infractionType": "Lobo",
+      "price": "123",
+      "color": "Blanco",
+      "zoneNoDevice": "A-123",
+      "ticketedIn": "Lorem ipsum dolor sit amet, consectur.",
+      "tipoInf": "ipsum",
+      "status": "Activo",
+      "inspName": "Lorem ipsum dolor sit amet, consectur",
+      "isPago": "si",
+      "isPlaca": "no",
+      "observation": "Lorem ipsum dolor sit amet\n\n",
+      "id": 1
     },
     {
-      "id": 2,
-      "folio": "123455324",
-      "date": "11/02/2020",
-      "time": "9:00",
-      "carPlate": "DZ- 75-900",
-      "brand": "chevrolet",
-      "infractionType": "b",
-      "price": "80.00",
-      "color": "gris",
-      "zoneNoDevice": "5",
-      "ticketedIn": "centro",
-      "status": "Pagada",
-      "inspName": "Lorem ipsum dolor si amet",
-      "observation": "Ninguna"
+      "folio": "1234568",
+      "date": "1999-12-12",
+      "time": "14:00",
+      "carPlate": "dz-75900",
+      "brand": "Ford",
+      "infractionType": "Lobo",
+      "price": "900",
+      "color": "Rojo",
+      "zoneNoDevice": "a-124",
+      "ticketedIn": "Lorem impsun",
+      "tipoInf": "dolor",
+      "status": "Activo",
+      "inspName": "Lorem impsum dolor",
+      "isPago": "no",
+      "isPlaca": "no",
+      "observation": "Adela",
+      "id": 2
     },
     {
-      "folio": "cvb",
-      "date": "1/7/2022",
+      "folio": "1232",
+      "date": "2020-02-12",
       "time": "12:00:00",
-      "carPlace": "123456",
-      "brand": "wertyu",
-      "infractionType": "dfghj",
-      "price": "er",
-      "color": "xcvbn",
-      "zoneNoDevice": "dv",
-      "ticketedIn": "zxc",
-      "tipoInf": " sdfg",
-      "status": "fgh",
-      "inspName": "vbrfghj",
-      "observation": "dfgh",
+      "carPlate": "Dz-75-900",
+      "brand": "nissan",
+      "infractionType": "sda",
+      "price": "123",
+      "color": "rojo",
+      "zoneNoDevice": "a-541",
+      "ticketedIn": "av. 6ta Nte",
+      "tipoInf": "dolor",
+      "status": "Activo",
+      "inspName": "Lorem ipsum Dolor",
+      "isPago": "si",
+      "isPlaca": "si",
+      "observation": "QWERTY",
       "id": 3
-    },
-    {
-      "folio": "1234",
-      "date": "12/7/2022",
-      "time": "12:00:00",
-      "carPlace": "dz-75-900",
-      "brand": "1",
-      "infractionType": "dfghj",
-      "price": "123",
-      "color": "xcvbn",
-      "zoneNoDevice": "1",
-      "ticketedIn": "dfgbn",
-      "tipoInf": "1",
-      "status": "dfbkkbghj,",
-      "inspName": "1",
-      "observation": "dfg",
-      "id": 4
-    },
-    {
-      "folio": "1234",
-      "date": "12/7/2022",
-      "time": "12:00:00",
-      "carPlace": "dz-75-900",
-      "brand": "dfg",
-      "infractionType": "dfghj",
-      "price": "123",
-      "color": "1",
-      "zoneNoDevice": "dv",
-      "ticketedIn": "dfgbn",
-      "tipoInf": "fgbn",
-      "status": "11",
-      "inspName": "1",
-      "observation": "cvbghjhhkjl",
-      "id": 5
-    },
-    {
-      "folio": "1",
-      "date": "14/7/2022",
-      "time": "12:00:00",
-      "carPlace": "dz-75-900",
-      "brand": "wertyu",
-      "infractionType": "dfghj",
-      "price": "20",
-      "color": "SDDD",
-      "zoneNoDevice": "1",
-      "ticketedIn": "1",
-      "tipoInf": "fgbn",
-      "status": "134",
-      "inspName": "dfgn",
-      "observation": "mlm",
-      "id": 6
     }
   ],
   "usuario": [
@@ -156,30 +111,12 @@
     },
     {
       "name": "admin",
-      "firstLasName": "almazan",
-      "secondLastName": "almazan",
-      "role": "Admin",
-      "email": "lopezadela606@gmail.com",
-      "phone": "6391121905",
-      "id": 9
-    },
-    {
-      "name": "admin",
-      "firstLasName": "almazan",
-      "secondLastName": "almazan",
-      "role": "Admin",
+      "firstLasName": "admin",
+      "secondLastName": "admin",
+      "role": "SuperAdmin",
       "email": "lopezadela606@gmail.com",
       "phone": "6391175971",
-      "id": 10
-    },
-    {
-      "name": "admin",
-      "firstLasName": "almazan",
-      "secondLastName": "almazan",
-      "role": "Cajero",
-      "email": "lopezadela606@gmail.com",
-      "phone": "6391175971",
-      "id": 11
+      "id": 5
     }
   ],
   "pagos": [
@@ -326,120 +263,7 @@
       "type": "notification"
     }
   ],
-  "arqueo": [
-    {
-      "id": 1,
-      "nombrecajero": "Lorem impusum sit amet, cesectur",
-      "efectivo": "4000.00",
-      "tarjeta": "2000.00",
-      "total": "6000.00"
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 3513.5,
-      "tarjeta": "100",
-      "total": "3513.5100",
-      "id": 2
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 3
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 2098,
-      "tarjeta": "2",
-      "total": "20982",
-      "id": 4
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1988.5,
-      "tarjeta": "2",
-      "total": "1988.52",
-      "id": 5
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1898.5,
-      "tarjeta": "1",
-      "total": "1898.51",
-      "id": 6
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "112",
-      "total": "1888.5112",
-      "id": 7
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1906,
-      "tarjeta": "1",
-      "total": "19061",
-      "id": 8
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1896,
-      "tarjeta": "1",
-      "total": "18961",
-      "id": 9
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1234",
-      "total": "1888.51234",
-      "id": 10
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "91",
-      "total": "1888.591",
-      "id": 11
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "100",
-      "total": "1888.5100",
-      "id": 12
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 11888.5,
-      "tarjeta": "1",
-      "total": "11888.51",
-      "id": 13
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 926.5,
-      "tarjeta": "100",
-      "total": "926.5100",
-      "id": 14
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "01000",
-      "total": "1888.501000",
-      "id": 15
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1907,
-      "tarjeta": "2453",
-      "total": "19072453",
-      "id": 16
-    }
-  ],
+  "arqueo": [],
   "archivos": [
     {
       "id": 1
@@ -451,73 +275,101 @@
   "lista_engomados": [
     {
       "folio": "1",
-      "foliot": "14/7/2022",
-      "placa": "dz-75-900",
-      "stickerType": "ipsum",
-      "periodo": {
-        "fechaInicial": "14/7/2022",
-        "fechaFinal": "14-07-2023"
-      },
-      "importe": 1200,
-      "subtotal": 1200,
-      "concepto": "engomado: ipsum",
-      "id": 1
-    },
-    {
-      "folio": "2",
-      "foliot": "14/7/2022",
-      "placa": "dz-75-900",
+      "foliot": "19/7/2022",
+      "placa": "DZ-V75-900",
       "stickerType": "dolor",
       "periodo": {
-        "fechaInicial": "14/7/2022",
-        "fechaFinal": "14-07-2023"
+        "fechaInicial": "19/7/2022",
+        "fechaFinal": "19-07-2023"
       },
       "importe": 1200,
       "subtotal": 1200,
       "concepto": "engomado: dolor",
+      "id": 1
+    },
+    {
+      "folio": "2",
+      "foliot": "19/7/2022",
+      "placa": "dz-75-900",
+      "stickerType": "ipsum",
+      "periodo": {
+        "fechaInicial": "19/7/2022",
+        "fechaFinal": "19-07-2023"
+      },
+      "importe": 12345,
+      "subtotal": 12345,
+      "concepto": "engomado: ipsum",
       "id": 2
     },
     {
       "folio": "3",
-      "foliot": "14/7/2022",
-      "placa": "dz-75-900",
-      "stickerType": "ipsum",
-      "periodo": {
-        "fechaInicial": "14/7/2022",
-        "fechaFinal": "14-07-2023"
-      },
-      "importe": 1200,
-      "subtotal": 1200,
-      "concepto": "engomado: ipsum",
-      "id": 3
-    },
-    {
-      "folio": "5",
-      "foliot": "15/7/2022",
+      "foliot": "19/7/2022",
       "placa": "dz-75-900",
       "stickerType": "dolor",
       "periodo": {
-        "fechaInicial": "15/7/2022",
-        "fechaFinal": "15-07-2023"
+        "fechaInicial": "19/7/2022",
+        "fechaFinal": "19-07-2023"
       },
-      "importe": 12345,
-      "subtotal": 12345,
+      "importe": 1200,
+      "subtotal": 1200,
+      "concepto": "engomado: dolor",
+      "id": 3
+    },
+    {
+      "folio": "4",
+      "foliot": "19/7/2022",
+      "placa": "DZ-V75-900",
+      "stickerType": "ipsum",
+      "periodo": {
+        "fechaInicial": "19/7/2022",
+        "fechaFinal": "19-07-2023"
+      },
+      "importe": 12000,
+      "subtotal": 12000,
+      "concepto": "engomado: ipsum",
+      "id": 4
+    },
+    {
+      "folio": "5",
+      "foliot": "19/7/2022",
+      "placa": "EF35067",
+      "stickerType": "dolor",
+      "periodo": {
+        "fechaInicial": "19/7/2022",
+        "fechaFinal": "19-07-2023"
+      },
+      "importe": 1200,
+      "subtotal": 1200,
       "concepto": "engomado: dolor",
       "id": 5
     },
     {
       "folio": "6",
-      "foliot": "15/7/2022",
-      "placa": "dz-75-900",
-      "stickerType": "ipsum",
+      "foliot": "19/7/2022",
+      "placa": "DZ-V75-900",
+      "stickerType": "dolor",
       "periodo": {
-        "fechaInicial": "15/7/2022",
-        "fechaFinal": "15-07-2023"
+        "fechaInicial": "19/7/2022",
+        "fechaFinal": "19-07-2023"
       },
       "importe": 1200,
       "subtotal": 1200,
-      "concepto": "engomado: ipsum",
+      "concepto": "engomado: dolor",
       "id": 6
+    },
+    {
+      "folio": "7",
+      "foliot": "19/7/2022",
+      "placa": "DZ-V75-900",
+      "stickerType": "dolor",
+      "periodo": {
+        "fechaInicial": "19/7/2022",
+        "fechaFinal": "19-07-2023"
+      },
+      "importe": 1234,
+      "subtotal": 1234,
+      "concepto": "engomado: dolor",
+      "id": 7
     }
   ]
 }
