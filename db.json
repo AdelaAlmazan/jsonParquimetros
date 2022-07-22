@@ -141,39 +141,21 @@
     },
     {
       "name": "admin",
-      "firstLasName": "Almazan",
-      "secondLastName": "Almazan",
-      "role": "Inspector",
-      "email": "ssm@gmail.com",
-      "phone": "6391121905",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
+      "role": "Admin",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391175971",
       "id": 5
     },
     {
       "name": "admin",
       "firstLasName": "almazan",
       "secondLastName": "almazan",
-      "role": "Inspector",
+      "role": "Admin",
       "email": "lopezadela606@gmail.com",
-      "phone": "kbjb j  m",
+      "phone": "6391175971",
       "id": 6
-    },
-    {
-      "name": "admin",
-      "firstLasName": "almazan",
-      "secondLastName": "almazan",
-      "role": "Admin",
-      "email": "ssm@gmail.com",
-      "phone": "gkhk,",
-      "id": 7
-    },
-    {
-      "name": "admin",
-      "firstLasName": "almazan",
-      "secondLastName": "almazan",
-      "role": "Admin",
-      "email": "lopezadela606@gmail.com",
-      "phone": "adjkn",
-      "id": 8
     }
   ],
   "pagos": [
@@ -351,6 +333,90 @@
       "subtotal": 1200,
       "concepto": "engomado: dolor",
       "id": 1
+    },
+    {
+      "folio": "2",
+      "foliot": "22/7/2022",
+      "placa": "1",
+      "stickerType": "ipsum",
+      "periodo": {
+        "fechaInicial": "22/7/2022",
+        "fechaFinal": "22-07-2023"
+      },
+      "importe": 1200,
+      "subtotal": 1200,
+      "concepto": "engomado: ipsum",
+      "id": 2
+    },
+    {
+      "folio": "3",
+      "foliot": "22/7/2022",
+      "placa": "dz-75-900",
+      "stickerType": "ipsum",
+      "periodo": {
+        "fechaInicial": "22/7/2022",
+        "fechaFinal": "22-07-2023"
+      },
+      "importe": 1200,
+      "subtotal": 1200,
+      "concepto": "engomado: ipsum",
+      "id": 3
+    },
+    {
+      "folio": "4",
+      "foliot": "22/7/2022",
+      "placa": "DZ-V75-900",
+      "stickerType": "dolor",
+      "periodo": {
+        "fechaInicial": "22/7/2022",
+        "fechaFinal": "22-07-2023"
+      },
+      "importe": 1200,
+      "subtotal": 1200,
+      "concepto": "engomado: dolor",
+      "id": 4
+    },
+    {
+      "folio": "5",
+      "foliot": "22/7/2022",
+      "placa": "dz-75-900",
+      "stickerType": "dolor",
+      "periodo": {
+        "fechaInicial": "22/7/2022",
+        "fechaFinal": "22-07-2023"
+      },
+      "importe": 12000,
+      "subtotal": 12000,
+      "concepto": "engomado: dolor",
+      "id": 5
+    },
+    {
+      "folio": "6",
+      "foliot": "22/7/2022",
+      "placa": "AB",
+      "stickerType": "dolor",
+      "periodo": {
+        "fechaInicial": "22/7/2022",
+        "fechaFinal": "22-07-2023"
+      },
+      "importe": 1200,
+      "subtotal": 1200,
+      "concepto": "engomado: dolor",
+      "id": 6
+    },
+    {
+      "folio": "7",
+      "foliot": "22/7/2022",
+      "placa": "EF35067",
+      "stickerType": "ipsum",
+      "periodo": {
+        "fechaInicial": "22/7/2022",
+        "fechaFinal": "22-07-2023"
+      },
+      "importe": 1200,
+      "subtotal": 1200,
+      "concepto": "engomado: ipsum",
+      "id": 7
     }
   ]
 }
