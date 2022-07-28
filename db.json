@@ -51,62 +51,82 @@
       "price": "123",
       "color": "Blanco",
       "zoneNoDevice": "A-123",
-      "ticketedIn": "Lorem ipsum dolor sit amet, consectur.",
+      "ticketedIn": "Lorem ipsum dolor sit amet, consectur",
       "tipoInf": "ipsum",
       "status": "Activo",
       "inspName": "Lorem ipsum dolor sit amet, consectur",
       "isPago": "si",
-      "isPlaca": "no",
-      "observation": "Lorem ipsum dolor sit amet\n\n",
-      "id": 1
+      "isPlaca": "si",
+      "observation": "Lorem ipsum dolor sit amet",
+      "id": 1,
+      "zonaNoDevice": "A-124"
     },
     {
       "folio": "1234568",
-      "date": "1999-12-12",
+      "date": "2022-07-16",
       "time": "14:00",
-      "carPlate": "dz-75900",
-      "brand": "Ford",
-      "infractionType": "Lobo",
-      "price": "900",
-      "color": "Rojo",
-      "zoneNoDevice": "a-124",
-      "ticketedIn": "Lorem impsun",
+      "carPlate": "DZ-V75-900",
+      "brand": "1",
+      "infractionType": "112",
+      "price": "234",
+      "color": "verde",
+      "zoneNoDevice": "A-124",
+      "ticketedIn": "Lorem ipsum dolor sit amet, ",
       "tipoInf": "dolor",
       "status": "Activo",
-      "inspName": "Lorem impsum dolor",
-      "isPago": "no",
+      "inspName": "Lorem ipsum dolor sit amet, consectur",
+      "isPago": "si",
       "isPlaca": "no",
-      "observation": "Adela",
+      "observation": "Lorem ipsum dolor sit amet",
       "id": 2
     },
     {
-      "folio": "1232",
-      "date": "2020-02-12",
-      "time": "12:00:00",
-      "carPlate": "Dz-75-900",
-      "brand": "nissan",
-      "infractionType": "sda",
+      "folio": "123456789",
+      "date": "2022-07-30",
+      "time": "17:02",
+      "carPlate": "dz-75-900",
+      "brand": "123",
+      "infractionType": "112",
       "price": "123",
-      "color": "rojo",
-      "zoneNoDevice": "a-541",
-      "ticketedIn": "av. 6ta Nte",
+      "color": "verde",
+      "zoneNoDevice": "dfgb",
+      "ticketedIn": "1",
       "tipoInf": "dolor",
-      "status": "Activo",
-      "inspName": "Lorem ipsum Dolor",
+      "status": "1",
+      "inspName": "Guadalupe Almazan",
       "isPago": "si",
       "isPlaca": "si",
-      "observation": "QWERTY",
+      "observation": "adela",
       "id": 3
+    },
+    {
+      "folio": "12345",
+      "date": "2022-07-23",
+      "time": "12:00:00",
+      "carPlate": "dz-75-900",
+      "brand": "chevrolet",
+      "infractionType": "pickup",
+      "price": "123",
+      "color": "roja",
+      "zoneNoDevice": "10",
+      "ticketedIn": "Calle 6ta Col. centro",
+      "tipoInf": "ipsum",
+      "status": "Activo",
+      "inspName": "Adela Guadalupe Almazan",
+      "isPago": "si",
+      "isPlaca": "no",
+      "observation": "TURUR",
+      "id": 4
     }
   ],
   "usuario": [
     {
-      "name": "Adela Guadalupe",
+      "name": "Adela Guadalupe Almazan Lopez",
       "firstLasName": "Almazan",
-      "secondLastName": "Almazan",
+      "secondLastName": "Almazan Lopez",
       "role": "SuperAdmin",
       "email": "lopezadela606@gmail.com",
-      "phone": "6391175971",
+      "phone": "6391121905",
       "id": 1,
       "nombre": "Adela Guadalupe",
       "apellidop": "Almazan",
@@ -122,40 +142,13 @@
       "id": 2
     },
     {
-      "name": "Guadalupe",
-      "firstLasName": "Almazan",
-      "secondLastName": "Almazan",
-      "role": "Cajero",
+      "name": "admin",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
+      "role": "Admin",
       "email": "lopezadela606@gmail.com",
-      "phone": "6391175971",
+      "phone": "6391121905",
       "id": 3
-    },
-    {
-      "name": "admin",
-      "firstLasName": "almazan",
-      "secondLastName": "almazan",
-      "role": "SuperAdmin",
-      "email": "lopezadela606@gmail.com",
-      "phone": "6391175971",
-      "id": 4
-    },
-    {
-      "name": "admin",
-      "firstLasName": "almazan",
-      "secondLastName": "almazan",
-      "role": "Admin",
-      "email": "lopezadela606@gmail.com",
-      "phone": "6391175971",
-      "id": 5
-    },
-    {
-      "name": "admin",
-      "firstLasName": "almazan",
-      "secondLastName": "almazan",
-      "role": "Admin",
-      "email": "lopezadela606@gmail.com",
-      "phone": "6391175971",
-      "id": 6
     }
   ],
   "pagos": [
@@ -309,14 +302,27 @@
       "tarjeta": "1234567",
       "total": "3153.51234567",
       "id": 1
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 2000,
+      "tarjeta": "-2000",
+      "total": "2000-2000",
+      "id": 2
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "19",
+      "total": "1888.519",
+      "id": 3
     }
   ],
   "archivos": [
     {
-      "id": 1
-    },
-    {
-      "id": 2
+      "id": 1,
+      "picture": "est.png",
+      "Nombre": "est"
     }
   ],
   "lista_engomados": [
@@ -350,68 +356,68 @@
     },
     {
       "folio": "3",
-      "foliot": "22/7/2022",
-      "placa": "dz-75-900",
-      "stickerType": "ipsum",
-      "periodo": {
-        "fechaInicial": "22/7/2022",
-        "fechaFinal": "22-07-2023"
-      },
-      "importe": 1200,
-      "subtotal": 1200,
-      "concepto": "engomado: ipsum",
-      "id": 3
-    },
-    {
-      "folio": "4",
-      "foliot": "22/7/2022",
-      "placa": "DZ-V75-900",
+      "foliot": "26/7/2022",
+      "placa": "1",
       "stickerType": "dolor",
       "periodo": {
-        "fechaInicial": "22/7/2022",
-        "fechaFinal": "22-07-2023"
+        "fechaInicial": "26/7/2022",
+        "fechaFinal": "26-07-2023"
       },
       "importe": 1200,
       "subtotal": 1200,
       "concepto": "engomado: dolor",
+      "id": 3
+    },
+    {
+      "folio": "4",
+      "foliot": "26/7/2022",
+      "placa": "1",
+      "stickerType": "ipsum",
+      "periodo": {
+        "fechaInicial": "26/7/2022",
+        "fechaFinal": "26-07-2023"
+      },
+      "importe": 1200,
+      "subtotal": 1200,
+      "concepto": "engomado: ipsum",
       "id": 4
     },
     {
       "folio": "5",
-      "foliot": "22/7/2022",
+      "foliot": "26/7/2022",
       "placa": "dz-75-900",
       "stickerType": "dolor",
       "periodo": {
-        "fechaInicial": "22/7/2022",
-        "fechaFinal": "22-07-2023"
+        "fechaInicial": "26/7/2022",
+        "fechaFinal": "26-07-2023"
       },
-      "importe": 12000,
-      "subtotal": 12000,
+      "importe": 1200,
+      "subtotal": 1200,
       "concepto": "engomado: dolor",
       "id": 5
     },
     {
       "folio": "6",
-      "foliot": "22/7/2022",
-      "placa": "AB",
-      "stickerType": "dolor",
+      "foliot": "27/7/2022",
+      "placa": "DZ-V75-900",
+      "stickerType": "ipsum",
       "periodo": {
-        "fechaInicial": "22/7/2022",
-        "fechaFinal": "22-07-2023"
+        "fechaInicial": "27/7/2022",
+        "fechaFinal": "27-07-2023"
       },
       "importe": 1200,
       "subtotal": 1200,
-      "concepto": "engomado: dolor",
+      "concepto": "engomado: ipsum",
       "id": 6
     },
     {
       "folio": "7",
-      "foliot": "22/7/2022",
-      "placa": "EF35067",
+      "foliot": "28/7/2022",
+      "placa": "DZ-V75-900",
       "stickerType": "ipsum",
       "periodo": {
-        "fechaInicial": "22/7/2022",
-        "fechaFinal": "22-07-2023"
+        "fechaInicial": "28/7/2022",
+        "fechaFinal": "28-07-2023"
       },
       "importe": 1200,
       "subtotal": 1200,
