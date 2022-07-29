@@ -117,6 +117,25 @@
       "isPlaca": "no",
       "observation": "TURUR",
       "id": 4
+    },
+    {
+      "folio": "1234567",
+      "date": "29/7/2022",
+      "time": "12:00:00",
+      "carPlate": "DZ-V75-900",
+      "brand": "1",
+      "infractionType": "dfghj",
+      "price": "123",
+      "color": "dfb",
+      "zoneNoDevice": "1",
+      "ticketedIn": "dfgbn",
+      "tipoInf": "ipsum",
+      "status": "1",
+      "inspName": "1",
+      "isPago": "si",
+      "isPlaca": "si",
+      "observation": "adela\n\n",
+      "id": 5
     }
   ],
   "usuario": [
@@ -149,6 +168,42 @@
       "email": "lopezadela606@gmail.com",
       "phone": "6391121905",
       "id": 3
+    },
+    {
+      "name": "admin",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
+      "role": "Cajero",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391175971",
+      "id": 4
+    },
+    {
+      "name": "Adela",
+      "firstLasName": "Almazan",
+      "secondLastName": "Almazan",
+      "role": "Admin",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391175971",
+      "id": 5
+    },
+    {
+      "name": "admin",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
+      "role": "Inspector",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391175971",
+      "id": 6
+    },
+    {
+      "name": "guadalupe",
+      "firstLasName": "Almazan ",
+      "secondLastName": "Almazan ",
+      "role": "Inspector",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391121905",
+      "id": 7
     }
   ],
   "pagos": [
@@ -342,12 +397,12 @@
     },
     {
       "folio": "2",
-      "foliot": "22/7/2022",
-      "placa": "1",
+      "foliot": "29/7/2022",
+      "placa": "EF35067",
       "stickerType": "ipsum",
       "periodo": {
-        "fechaInicial": "22/7/2022",
-        "fechaFinal": "22-07-2023"
+        "fechaInicial": "29/7/2022",
+        "fechaFinal": "29-07-2023"
       },
       "importe": 1200,
       "subtotal": 1200,
@@ -356,26 +411,26 @@
     },
     {
       "folio": "3",
-      "foliot": "26/7/2022",
-      "placa": "1",
+      "foliot": "29/7/2022",
+      "placa": "DZ-V75-900",
       "stickerType": "dolor",
       "periodo": {
-        "fechaInicial": "26/7/2022",
-        "fechaFinal": "26-07-2023"
+        "fechaInicial": "29/7/2022",
+        "fechaFinal": "29-07-2023"
       },
-      "importe": 1200,
-      "subtotal": 1200,
+      "importe": 12345,
+      "subtotal": 12345,
       "concepto": "engomado: dolor",
       "id": 3
     },
     {
       "folio": "4",
-      "foliot": "26/7/2022",
-      "placa": "1",
+      "foliot": "29/7/2022",
+      "placa": "DZ-75-901",
       "stickerType": "ipsum",
       "periodo": {
-        "fechaInicial": "26/7/2022",
-        "fechaFinal": "26-07-2023"
+        "fechaInicial": "29/7/2022",
+        "fechaFinal": "29-07-2023"
       },
       "importe": 1200,
       "subtotal": 1200,
@@ -384,45 +439,17 @@
     },
     {
       "folio": "5",
-      "foliot": "26/7/2022",
-      "placa": "dz-75-900",
+      "foliot": "29/7/2022",
+      "placa": "dz-75-902",
       "stickerType": "dolor",
       "periodo": {
-        "fechaInicial": "26/7/2022",
-        "fechaFinal": "26-07-2023"
+        "fechaInicial": "29/7/2022",
+        "fechaFinal": "29-07-2023"
       },
       "importe": 1200,
       "subtotal": 1200,
       "concepto": "engomado: dolor",
       "id": 5
-    },
-    {
-      "folio": "6",
-      "foliot": "27/7/2022",
-      "placa": "DZ-V75-900",
-      "stickerType": "ipsum",
-      "periodo": {
-        "fechaInicial": "27/7/2022",
-        "fechaFinal": "27-07-2023"
-      },
-      "importe": 1200,
-      "subtotal": 1200,
-      "concepto": "engomado: ipsum",
-      "id": 6
-    },
-    {
-      "folio": "7",
-      "foliot": "28/7/2022",
-      "placa": "DZ-V75-900",
-      "stickerType": "ipsum",
-      "periodo": {
-        "fechaInicial": "28/7/2022",
-        "fechaFinal": "28-07-2023"
-      },
-      "importe": 1200,
-      "subtotal": 1200,
-      "concepto": "engomado: ipsum",
-      "id": 7
     }
   ]
 }
