@@ -42,14 +42,14 @@
   ],
   "infracciones": [
     {
-      "folio": "1234567",
+      "folio": "12345678",
       "date": "2022-09-03",
       "time": "16:19",
       "carPlate": "AAA1234hgfc",
       "brand": "Ford",
       "infractionType": "Lobo",
       "price": "123",
-      "color": "Blanco",
+      "color": "Rojo",
       "zoneNoDevice": "A-123",
       "ticketedIn": "Lorem ipsum sit amet, consectur.",
       "tipoInf": "ipsum",
@@ -103,37 +103,113 @@
     },
     {
       "folio": "1234",
-      "date": "2022-08-09",
-      "time": "20:54",
-      "carPlate": "DZ-V75-900",
+      "date": "2022-08-12",
+      "time": "16:17",
+      "carPlate": "dz-75-900",
       "brand": "Ford ",
       "infractionType": "Lobo",
-      "price": "96",
+      "price": "98",
       "color": "Blanco",
       "zoneNoDevice": "A-123",
       "ticketedIn": "Lorem ipsum sit amet, consectur.",
-      "tipoInf": "Dañar u obstruir el funcionamiento de los estacionometros",
-      "status": "Activo",
-      "pago": "Pagada",
-      "inspName": "Adela Almazan",
+      "tipoInf": "Introducir objetos difetentes a los autorizados a los estacionometros",
+      "status": "1",
+      "pago": "mn",
+      "inspName": "1",
       "isPago": "si",
       "isPlaca": "si",
-      "observation": "Lorem ipsum dolor\n",
+      "observation": "qwerty",
       "id": 4
+    },
+    {
+      "folio": "1234",
+      "date": "2022-08-12",
+      "time": "21:29",
+      "carPlate": "dz-75-900",
+      "brand": "Ford ",
+      "infractionType": "Lobo",
+      "price": "8808",
+      "color": "Blanco",
+      "zoneNoDevice": "A-123",
+      "ticketedIn": "Lorem ipsum sit amet, consectur.",
+      "tipoInf": "Introducir objetos difetentes a los autorizados a los estacionometros",
+      "status": "1",
+      "pago": "Adels",
+      "inspName": "lorem ip",
+      "isPago": "si",
+      "isPlaca": "si",
+      "observation": "efgh",
+      "id": 5
+    },
+    {
+      "folio": "1234",
+      "date": "2022-08-13",
+      "time": "15:53",
+      "carPlate": "dz-75-900",
+      "brand": "Ford ",
+      "infractionType": "Lobo",
+      "price": "321",
+      "color": "Blanco",
+      "zoneNoDevice": "A-123",
+      "ticketedIn": "Lorem ipsum sit amet, consectur.",
+      "tipoInf": "obstaculice, condiciones o impide el estacionamiento en la via publica",
+      "status": "1",
+      "pago": "zx",
+      "inspName": "vbrfghj",
+      "isPago": "si",
+      "isPlaca": "si",
+      "observation": "Adela Almazan ",
+      "id": 6
     }
   ],
   "usuario": [
     {
-      "name": "Adela Guadalupe Almazan Lopez",
-      "firstLasName": "Adela Guadalupe",
-      "secondLastName": "Almazan Lopez",
+      "name": "Adela",
+      "firstLasName": "Almazan",
+      "secondLastName": "Almazan",
+      "role": "SuperAdmin",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391175971",
+      "id": 1,
+      "nombre": "",
+      "apellidop": "",
+      "apellidom": ""
+    },
+    {
+      "name": "admin",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
+      "role": "SuperAdmin",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391121905 ",
+      "id": 2
+    },
+    {
+      "name": "admin",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
       "role": "Inspector",
       "email": "lopezadela606@gmail.com",
-      "phone": "6391121905",
-      "id": 1,
-      "nombre": "Adela Guadalupe",
-      "apellidop": "Almazan",
-      "apellidom": "Lopez"
+      "phone": "6391175971",
+      "id": 3
+    },
+    {
+      "name": "admin",
+      "firstLasName": "Almazan",
+      "secondLastName": "Almazan",
+      "role": "Admin",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391175971",
+      "id": 4
+    },
+    {
+      "name": "admin",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
+      "role": "Admin",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391121905 ",
+      "id": 5
     },
     {
       "name": "admin",
@@ -142,16 +218,7 @@
       "role": "Admin",
       "email": "lopezadela606@gmail.com",
       "phone": "6391175971",
-      "id": 2
-    },
-    {
-      "name": "admin",
-      "firstLasName": "almazan",
-      "secondLastName": "almazan",
-      "role": "SuperAdmin",
-      "email": "lopezadela606@gmail.com",
-      "phone": "6391175971",
-      "id": 3
+      "id": 6
     }
   ],
   "pagos": [
@@ -366,12 +433,12 @@
     },
     {
       "folio": "2",
-      "foliot": "10/8/2022",
-      "placa": "AB",
+      "foliot": "15/8/2022",
+      "placa": "DZ-V75-900",
       "stickerType": "ipsum",
       "periodo": {
-        "fechaInicial": "10/8/2022",
-        "fechaFinal": "10-08-2023"
+        "fechaInicial": "15/8/2022",
+        "fechaFinal": "15-08-2023"
       },
       "importe": 1200,
       "subtotal": 1200,
@@ -380,17 +447,45 @@
     },
     {
       "folio": "3",
-      "foliot": "10/8/2022",
-      "placa": "DZ-V75-900",
+      "foliot": "15/8/2022",
+      "placa": "fz68-978",
       "stickerType": "ipsum",
       "periodo": {
-        "fechaInicial": "10/8/2022",
-        "fechaFinal": "10-08-2023"
+        "fechaInicial": "15/8/2022",
+        "fechaFinal": "15-08-2023"
       },
-      "importe": 1200,
-      "subtotal": 1200,
+      "importe": 12345,
+      "subtotal": 12345,
       "concepto": "engomado: ipsum",
       "id": 3
+    },
+    {
+      "folio": "4",
+      "foliot": "15/8/2022",
+      "placa": "AB",
+      "stickerType": "ipsum",
+      "periodo": {
+        "fechaInicial": "15/8/2022",
+        "fechaFinal": "15-08-2023"
+      },
+      "importe": 12345,
+      "subtotal": 12345,
+      "concepto": "engomado: ipsum",
+      "id": 4
+    },
+    {
+      "folio": "5",
+      "foliot": "15/8/2022",
+      "placa": "DZ-V75-900",
+      "stickerType": "dolor",
+      "periodo": {
+        "fechaInicial": "15/8/2022",
+        "fechaFinal": "15-08-2023"
+      },
+      "importe": 12345,
+      "subtotal": 12345,
+      "concepto": "engomado: dolor",
+      "id": 5
     }
   ]
 }
