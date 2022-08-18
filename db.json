@@ -55,7 +55,7 @@
       "tipoInf": "ipsum",
       "status": "Activo",
       "pago": "Pagado",
-      "inspName": "Lorem ipsum dolor sit amer, consectetur",
+      "inspName": "Lorem ipsum dolor",
       "isPago": "si",
       "isPlaca": "si",
       "observation": "Lorem ipsum dolor sit amet\n\n",
@@ -112,6 +112,15 @@
       "email": "lopezadela606@gmail.co",
       "phone": "6391175971",
       "id": 3
+    },
+    {
+      "name": "admin",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
+      "role": "Cajero",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391121905 ",
+      "id": 4
     }
   ],
   "pagos": [
@@ -321,6 +330,20 @@
       "tarjeta": "50",
       "total": "283350",
       "id": 10
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 160266.5,
+      "tarjeta": "9",
+      "total": "160266.59",
+      "id": 11
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 19680.5,
+      "tarjeta": "23432",
+      "total": "19680.523432",
+      "id": 12
     }
   ],
   "archivos": [
@@ -332,46 +355,32 @@
   ],
   "lista_engomados": [
     {
-      "folio": "1",
-      "foliot": "16/8/2022",
-      "placa": "dz-75-900",
-      "stickerType": "ipsum",
-      "periodo": {
-        "fechaInicial": "16/8/2022",
-        "fechaFinal": "16-08-2023"
-      },
-      "importe": 1200,
-      "subtotal": 1200,
-      "concepto": "engomado: ipsum",
-      "id": 1
-    },
-    {
-      "folio": "2",
-      "foliot": "17/8/2022",
-      "placa": "1",
-      "stickerType": "ipsum",
-      "periodo": {
-        "fechaInicial": "17/8/2022",
-        "fechaFinal": "17-08-2023"
-      },
-      "importe": 12345,
-      "subtotal": 12345,
-      "concepto": "engomado: ipsum",
-      "id": 2
-    },
-    {
-      "folio": "3",
-      "foliot": "17/8/2022",
+      "folio": "7",
+      "foliot": "18/8/2022",
       "placa": "DZ-V75-900",
       "stickerType": "ipsum",
       "periodo": {
-        "fechaInicial": "17/8/2022",
-        "fechaFinal": "17-08-2023"
+        "fechaInicial": "18/8/2022",
+        "fechaFinal": "18-08-2023"
+      },
+      "importe": 4000,
+      "subtotal": 4000,
+      "concepto": "engomado: ipsum",
+      "id": 7
+    },
+    {
+      "folio": "8",
+      "foliot": "18/8/2022",
+      "placa": "dz-75-900",
+      "stickerType": "dolor",
+      "periodo": {
+        "fechaInicial": "18/8/2022",
+        "fechaFinal": "18-08-2023"
       },
       "importe": 1200,
       "subtotal": 1200,
-      "concepto": "engomado: ipsum",
-      "id": 3
+      "concepto": "engomado: dolor",
+      "id": 8
     }
   ]
 }
