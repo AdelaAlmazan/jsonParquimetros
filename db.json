@@ -43,18 +43,18 @@
   "infracciones": [
     {
       "folio": "12345678",
-      "date": "2022-09-03",
+      "date": "2022-08-26",
       "time": "16:19",
       "carPlate": "AAA1234hgfc",
       "brand": "Ford",
       "infractionType": "Lobo",
-      "price": "123",
-      "color": "Rojo",
+      "price": 123,
+      "color": "rojo",
       "zoneNoDevice": "A-123",
       "ticketedIn": "Lorem ipsum sit amet, consectur.",
-      "tipoInf": "ipsum",
-      "status": "Activo",
-      "pago": "Pagado",
+      "tipoInf": "Introducir objetos difetentes a los autorizados a los estacionometros",
+      "status": "cancelada",
+      "pago": "cancelar",
       "inspName": "Lorem ipsum dolor",
       "isPago": "si",
       "isPlaca": "si",
@@ -62,54 +62,142 @@
       "id": 1
     },
     {
+      "folio": "1234567",
+      "date": "2022-08-19",
+      "time": "15:58",
+      "carPlate": "dz-75-900",
+      "brand": "1",
+      "infractionType": "Lobo",
+      "price": 9876,
+      "color": "xcvbn",
+      "zoneNoDevice": "dfgb",
+      "ticketedIn": "dfgbn",
+      "tipoInf": "Introducir objetos difetentes a los autorizados a los estacionometros",
+      "status": "Activa",
+      "pago": "Pagado",
+      "inspName": "dfgn",
+      "isPago": "si",
+      "isPlaca": "no",
+      "observation": ".k,jmhvngbcv",
+      "id": 2
+    },
+    {
       "folio": "1234",
-      "date": "2022-08-17",
-      "time": "20:11",
-      "carPlate": "fz68-978",
-      "brand": "fgyhuijk",
+      "date": "2022-08-24",
+      "time": "19:11",
+      "carPlate": "dz-75-900",
+      "brand": "Ford ",
+      "infractionType": "Lobo",
+      "price": 1233,
+      "color": "Blanco",
+      "zoneNoDevice": "A-123",
+      "ticketedIn": "Lorem ipsum sit amet, consectur.",
+      "tipoInf": "obstaculice, condiciones o impide el estacionamiento en la via publica",
+      "status": "Activa",
+      "pago": "Pagado",
+      "inspName": "Adela",
+      "isPago": "si",
+      "isPlaca": "si",
+      "observation": "wedrfg",
+      "id": 3
+    },
+    {
+      "folio": "jhkl.",
+      "date": "2022-08-12",
+      "time": "16:09",
+      "carPlate": "dz-75-900",
+      "brand": "Ford ",
+      "infractionType": "Lobo",
+      "price": 4647,
+      "color": "Blanco",
+      "zoneNoDevice": "A-123",
+      "ticketedIn": "Lorem ipsum sit amet, consectur.",
+      "tipoInf": "Introducir objetos difetentes a los autorizados a los estacionometros",
+      "status": "cancelada",
+      "pago": "Pagado",
+      "inspName": "adela ",
+      "isPago": "si",
+      "isPlaca": "si",
+      "observation": "giuhg",
+      "id": 4
+    },
+    {
+      "folio": "1",
+      "date": "2021-12-01",
+      "time": "16:03",
+      "carPlate": "DZ-V75-900",
+      "brand": "Ford ",
+      "infractionType": "Lobo",
+      "price": "9765",
+      "color": "Blanco",
+      "zoneNoDevice": "A-123",
+      "ticketedIn": "Lorem ipsum sit amet, consectur.",
+      "tipoInf": "Dañar u obstruir el funcionamiento de los estacionometros",
+      "status": "Activa",
+      "pago": "Pagado",
+      "inspName": "Lorem",
+      "isPago": "no",
+      "isPlaca": "si",
+      "observation": "adela guadalupe\n",
+      "id": 5
+    },
+    {
+      "folio": "12344",
+      "date": "2022-08-11",
+      "time": "19:10",
+      "carPlate": "EF-75-900",
+      "brand": "Ford",
+      "infractionType": "Lobo",
+      "price": "350",
+      "color": "Verde",
+      "zoneNoDevice": "A2",
+      "ticketedIn": "Av. 5ta Sur ",
+      "tipoInf": "obstaculice, condiciones o impide el estacionamiento en la via publica",
+      "status": "Activa",
+      "pago": "Pagado",
+      "inspName": "asddfg",
+      "isPago": "si",
+      "isPlaca": "no",
+      "observation": "adela",
+      "id": 6
+    },
+    {
+      "folio": "1",
+      "date": "2022-09-01",
+      "time": "15:37",
+      "carPlate": "DZ-V75-900",
+      "brand": "Ford ",
       "infractionType": "Lobo",
       "price": "242",
       "color": "Blanco",
       "zoneNoDevice": "A-123",
       "ticketedIn": "Lorem ipsum sit amet, consectur.",
-      "tipoInf": "Dañar u obstruir el funcionamiento de los estacionometros",
-      "status": "Activo",
-      "pago": "zx",
-      "inspName": "Adela Almazan",
+      "tipoInf": " Omitir el pago de los estacionometros",
+      "status": "Activa",
+      "pago": "Pagado",
+      "inspName": "adela ",
       "isPago": "si",
       "isPlaca": "si",
-      "observation": "mk",
-      "id": 2
+      "observation": "m",
+      "id": 7
     }
   ],
   "usuario": [
     {
-      "name": "Adela Guadalupe Almazan Lopez",
-      "firstLasName": "Adela Guadalupe",
-      "secondLastName": "Almazan Lopez",
-      "role": "SuperAdmin",
-      "email": "lopezadela606@gmail.com",
-      "phone": "6391121905",
-      "id": 1,
-      "nombre": "Adela Guadalupe",
-      "apellidop": "Almazan",
-      "apellidom": "Lopez"
-    },
-    {
       "name": "admin",
       "firstLasName": "almazan",
       "secondLastName": "almazan",
-      "role": "Cajero",
-      "email": "lope@gmail.com",
-      "phone": "6391121905",
+      "role": "Administrador",
+      "email": "ssm@gmail.com",
+      "phone": "6391175971",
       "id": 2
     },
     {
       "name": "admin",
       "firstLasName": "almazan",
       "secondLastName": "almazan",
-      "role": "Admin",
-      "email": "lopezadela606@gmail.co",
+      "role": "SuperAdmin",
+      "email": "lopezadela606@gmail.com",
       "phone": "6391175971",
       "id": 3
     },
@@ -117,10 +205,19 @@
       "name": "admin",
       "firstLasName": "almazan",
       "secondLastName": "almazan",
-      "role": "Cajero",
+      "role": "Administrador",
       "email": "lopezadela606@gmail.com",
-      "phone": "6391121905 ",
+      "phone": "639112105`",
       "id": 4
+    },
+    {
+      "name": "admin",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
+      "role": "SuperAdmin",
+      "email": "lopezadela606@gmail.com",
+      "phone": "639112105`",
+      "id": 5
     }
   ],
   "pagos": [
@@ -232,32 +329,40 @@
   ],
   "notificaciones": [
     {
-      "id": 6,
+      "id": 1,
       "title": "Usuario Inmóvil",
       "datetime": "2027-08-09",
       "description": "el usuario 122 no se ha movido por mas de 5 minutos",
-      "type": "notification"
-    },
-    {
-      "id": 5,
-      "title": "Usuario Inmóvil",
-      "datetime": "2027-08-09",
-      "description": "el usuario 124 no se ha movido por mas de 5 minutos",
-      "type": "notification"
-    },
-    {
-      "id": 4,
-      "title": "Usuario Inmóvil",
-      "datetime": "2027-08-09",
-      "description": "el usuario 125 no se ha movido por mas de 7 minutos",
-      "type": "notification"
+      "type": "notification",
+      "name": "Adela ",
+      "inactivo": "5 min"
     },
     {
       "id": 2,
       "title": "Usuario Inmóvil",
       "datetime": "2027-08-09",
-      "description": "el usuario 126 no se ha movido por mas de 10 minutos",
-      "type": "notification"
+      "description": "el usuario 124 no se ha movido por mas de 5 minutos",
+      "type": "notification",
+      "name": "Guadalupe ",
+      "inactivo": "10 min"
+    },
+    {
+      "id": 3,
+      "title": "Usuario Inmóvil",
+      "datetime": "2027-08-09",
+      "description": "el usuario 122 no se ha movido por mas de 5 minutos",
+      "type": "notification",
+      "name": "Adela ",
+      "inactivo": "5 min"
+    },
+    {
+      "id": 4,
+      "title": "Usuario Inmóvil",
+      "datetime": "2027-08-09",
+      "description": "el usuario 124 no se ha movido por mas de 5 minutos",
+      "type": "notification",
+      "name": "Guadalupe ",
+      "inactivo": "10 min"
     }
   ],
   "arqueo": [
@@ -267,83 +372,6 @@
       "tarjeta": "1234567",
       "total": "3153.51234567",
       "id": 1
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 2000,
-      "tarjeta": "-2000",
-      "total": "2000-2000",
-      "id": 2
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "45",
-      "total": "1888.545",
-      "id": 3
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "112",
-      "total": "1888.5112",
-      "id": 4
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 888.5,
-      "tarjeta": "1326",
-      "total": "888.51326",
-      "id": 5
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "24",
-      "total": "1888.524",
-      "id": 6
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 1888.5,
-      "tarjeta": "1",
-      "total": "1888.51",
-      "id": 7
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 26250,
-      "tarjeta": "120",
-      "total": "26250120",
-      "id": 8
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 2888,
-      "tarjeta": "01000",
-      "total": "288801000",
-      "id": 9
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 2833,
-      "tarjeta": "50",
-      "total": "283350",
-      "id": 10
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 160266.5,
-      "tarjeta": "9",
-      "total": "160266.59",
-      "id": 11
-    },
-    {
-      "nombrecajero": "",
-      "efectivo": 19680.5,
-      "tarjeta": "23432",
-      "total": "19680.523432",
-      "id": 12
     }
   ],
   "archivos": [
@@ -355,32 +383,46 @@
   ],
   "lista_engomados": [
     {
-      "folio": "7",
-      "foliot": "18/8/2022",
-      "placa": "DZ-V75-900",
+      "folio": "1",
+      "foliot": "24/8/2022",
+      "placa": "dz-75-900",
       "stickerType": "ipsum",
       "periodo": {
-        "fechaInicial": "18/8/2022",
-        "fechaFinal": "18-08-2023"
+        "fechaInicial": "24/8/2022",
+        "fechaFinal": "24-08-2023"
       },
-      "importe": 4000,
-      "subtotal": 4000,
+      "importe": 1200,
+      "subtotal": 1200,
       "concepto": "engomado: ipsum",
-      "id": 7
+      "id": 1
     },
     {
-      "folio": "8",
-      "foliot": "18/8/2022",
-      "placa": "dz-75-900",
+      "folio": "2",
+      "foliot": "30/8/2022",
+      "placa": "DZ-V75-900",
       "stickerType": "dolor",
       "periodo": {
-        "fechaInicial": "18/8/2022",
-        "fechaFinal": "18-08-2023"
+        "fechaInicial": "30/8/2022",
+        "fechaFinal": "30-08-2023"
       },
       "importe": 1200,
       "subtotal": 1200,
       "concepto": "engomado: dolor",
-      "id": 8
+      "id": 2
+    },
+    {
+      "folio": "3",
+      "foliot": "31/8/2022",
+      "placa": "1",
+      "stickerType": "ipsum",
+      "periodo": {
+        "fechaInicial": "31/8/2022",
+        "fechaFinal": "31-08-2023"
+      },
+      "importe": 1200,
+      "subtotal": 1200,
+      "concepto": "engomado: ipsum",
+      "id": 3
     }
   ]
 }
