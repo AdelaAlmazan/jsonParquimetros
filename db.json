@@ -53,7 +53,7 @@
       "zoneNoDevice": "A-123",
       "ticketedIn": "Lorem ipsum sit amet, consectur.",
       "tipoInf": "Introducir objetos difetentes a los autorizados a los estacionometros",
-      "status": "cancelada",
+      "status": "Activa",
       "pago": "cancelar",
       "inspName": "Lorem ipsum dolor",
       "isPago": "si",
@@ -62,124 +62,24 @@
       "id": 1
     },
     {
-      "folio": "1234567",
-      "date": "2022-08-19",
-      "time": "15:58",
+      "folio": "1235",
+      "date": "2022-09-03",
+      "time": "16:57",
       "carPlate": "dz-75-900",
-      "brand": "1",
-      "infractionType": "Lobo",
-      "price": 9876,
-      "color": "xcvbn",
-      "zoneNoDevice": "dfgb",
-      "ticketedIn": "dfgbn",
-      "tipoInf": "Introducir objetos difetentes a los autorizados a los estacionometros",
-      "status": "Activa",
-      "pago": "Pagado",
-      "inspName": "dfgn",
-      "isPago": "si",
-      "isPlaca": "no",
-      "observation": ".k,jmhvngbcv",
-      "id": 2
-    },
-    {
-      "folio": "1234",
-      "date": "2022-08-24",
-      "time": "19:11",
-      "carPlate": "dz-75-900",
-      "brand": "Ford ",
-      "infractionType": "Lobo",
-      "price": 1233,
-      "color": "Blanco",
-      "zoneNoDevice": "A-123",
-      "ticketedIn": "Lorem ipsum sit amet, consectur.",
-      "tipoInf": "obstaculice, condiciones o impide el estacionamiento en la via publica",
-      "status": "Activa",
-      "pago": "Pagado",
-      "inspName": "Adela",
-      "isPago": "si",
-      "isPlaca": "si",
-      "observation": "wedrfg",
-      "id": 3
-    },
-    {
-      "folio": "jhkl.",
-      "date": "2022-08-12",
-      "time": "16:09",
-      "carPlate": "dz-75-900",
-      "brand": "Ford ",
-      "infractionType": "Lobo",
-      "price": 4647,
-      "color": "Blanco",
-      "zoneNoDevice": "A-123",
-      "ticketedIn": "Lorem ipsum sit amet, consectur.",
-      "tipoInf": "Introducir objetos difetentes a los autorizados a los estacionometros",
-      "status": "cancelada",
-      "pago": "Pagado",
-      "inspName": "adela ",
-      "isPago": "si",
-      "isPlaca": "si",
-      "observation": "giuhg",
-      "id": 4
-    },
-    {
-      "folio": "1",
-      "date": "2021-12-01",
-      "time": "16:03",
-      "carPlate": "DZ-V75-900",
-      "brand": "Ford ",
-      "infractionType": "Lobo",
-      "price": "9765",
-      "color": "Blanco",
-      "zoneNoDevice": "A-123",
-      "ticketedIn": "Lorem ipsum sit amet, consectur.",
-      "tipoInf": "Dañar u obstruir el funcionamiento de los estacionometros",
-      "status": "Activa",
-      "pago": "Pagado",
-      "inspName": "Lorem",
-      "isPago": "no",
-      "isPlaca": "si",
-      "observation": "adela guadalupe\n",
-      "id": 5
-    },
-    {
-      "folio": "12344",
-      "date": "2022-08-11",
-      "time": "19:10",
-      "carPlate": "EF-75-900",
-      "brand": "Ford",
-      "infractionType": "Lobo",
-      "price": "350",
-      "color": "Verde",
-      "zoneNoDevice": "A2",
-      "ticketedIn": "Av. 5ta Sur ",
-      "tipoInf": "obstaculice, condiciones o impide el estacionamiento en la via publica",
-      "status": "Activa",
-      "pago": "Pagado",
-      "inspName": "asddfg",
-      "isPago": "si",
-      "isPlaca": "no",
-      "observation": "adela",
-      "id": 6
-    },
-    {
-      "folio": "1",
-      "date": "2022-09-01",
-      "time": "15:37",
-      "carPlate": "DZ-V75-900",
       "brand": "Ford ",
       "infractionType": "Lobo",
       "price": "242",
       "color": "Blanco",
       "zoneNoDevice": "A-123",
       "ticketedIn": "Lorem ipsum sit amet, consectur.",
-      "tipoInf": " Omitir el pago de los estacionometros",
-      "status": "Activa",
+      "tipoInf": "obstaculice, condiciones o impide el estacionamiento en la via publica",
+      "status": "cancelada",
       "pago": "Pagado",
-      "inspName": "adela ",
+      "inspName": "Lorem ipmsum",
       "isPago": "si",
       "isPlaca": "si",
-      "observation": "m",
-      "id": 7
+      "observation": "chvjbnm.,/",
+      "id": 2
     }
   ],
   "usuario": [
@@ -187,15 +87,6 @@
       "name": "admin",
       "firstLasName": "almazan",
       "secondLastName": "almazan",
-      "role": "Administrador",
-      "email": "ssm@gmail.com",
-      "phone": "6391175971",
-      "id": 2
-    },
-    {
-      "name": "admin",
-      "firstLasName": "almazan",
-      "secondLastName": "almazan",
       "role": "SuperAdmin",
       "email": "lopezadela606@gmail.com",
       "phone": "6391175971",
@@ -218,6 +109,33 @@
       "email": "lopezadela606@gmail.com",
       "phone": "639112105`",
       "id": 5
+    },
+    {
+      "name": "admin",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
+      "role": "Publico",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391175971",
+      "id": 6
+    },
+    {
+      "name": "admin",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
+      "role": "SuperAdmin",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391175971",
+      "id": 7
+    },
+    {
+      "name": "admin",
+      "firstLasName": "almazan",
+      "secondLastName": "almazan",
+      "role": "Publico",
+      "email": "lopezadela606@gmail.com",
+      "phone": "6391121905jl",
+      "id": 8
     }
   ],
   "pagos": [
@@ -335,7 +253,8 @@
       "description": "el usuario 122 no se ha movido por mas de 5 minutos",
       "type": "notification",
       "name": "Adela ",
-      "inactivo": "5 min"
+      "inactivo": "5 min",
+      "vista": true
     },
     {
       "id": 2,
@@ -344,7 +263,8 @@
       "description": "el usuario 124 no se ha movido por mas de 5 minutos",
       "type": "notification",
       "name": "Guadalupe ",
-      "inactivo": "10 min"
+      "inactivo": "10 min",
+      "vista": true
     },
     {
       "id": 3,
@@ -353,7 +273,8 @@
       "description": "el usuario 122 no se ha movido por mas de 5 minutos",
       "type": "notification",
       "name": "Adela ",
-      "inactivo": "5 min"
+      "inactivo": "5 min",
+      "vista": true
     },
     {
       "id": 4,
@@ -362,7 +283,18 @@
       "description": "el usuario 124 no se ha movido por mas de 5 minutos",
       "type": "notification",
       "name": "Guadalupe ",
-      "inactivo": "10 min"
+      "inactivo": "10 min",
+      "vista": false
+    },
+    {
+      "id": 5,
+      "title": "Usuario Inmóvil",
+      "datetime": "2027-08-09",
+      "description": "el usuario 124 no se ha movido por mas de 5 minutos",
+      "type": "notification",
+      "name": " Lorem ipsum dolor",
+      "inactivo": "10 min",
+      "vista": false
     }
   ],
   "arqueo": [
@@ -372,6 +304,13 @@
       "tarjeta": "1234567",
       "total": "3153.51234567",
       "id": 1
+    },
+    {
+      "nombrecajero": "",
+      "efectivo": 1888.5,
+      "tarjeta": "1000",
+      "total": "1888.51000",
+      "id": 2
     }
   ],
   "archivos": [
